@@ -1,0 +1,31 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/przemyslaw/Desktop/" . "hardyn-emacs/")
+ ("/Users/przemyslaw/" . "Desktop/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/przemyslaw/Desktop/hardyn-emacs/"
+ "/Users/przemyslaw/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "install.sh"
+ ".emacs"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/przemyslaw/Desktop/hardyn-emacs/" (22074 29290 0 0) "source-code-pro/" "readme.md" "install.sh~" "install.sh" "emacs.org" "configs/" "collect.sh~" "collect.sh" "add_to_readme.md" ".DS_Store" "../" "./")
+
+ ("/Users/przemyslaw/Desktop/" (22074 26068 0 0) "hardyn-emacs/" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/przemyslaw/" (22074 28760 0 0) "smex-items" "Public/" "Pictures/" "Music/" "Movies/" "Library/" "elpa/" "Downloads/" "Documents/" "Desktop/" "auto-save-list/" "Applications/" "ac-comphist.dat" ".Trash/" ".mc-lists.el" ".gitconfig" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".CFUserTextEncoding" ".bash_history" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
