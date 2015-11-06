@@ -72,6 +72,7 @@
 (require 'smartparens)
 (require 'auto-complete)
 (require 'multiple-cursors)
+(require 'magit)
 ;; (require 'linum-relative) ;; ???
 
 ;; -------------------- GENERAL CONFIG --------------------
