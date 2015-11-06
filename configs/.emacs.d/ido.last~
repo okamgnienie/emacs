@@ -31,7 +31,7 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/przemyslaw/Projects/hardyn-emacs/configs/" (22076 63087 0 0) ".emacs.d/" ".emacs" "../" "./")
+ ("/Users/przemyslaw/Projects/hardyn-emacs/configs/" (22075 35434 0 0) ".emacs.d/" ".emacs" "../" "./")
 
  ("/Users/przemyslaw/Projects/hardyn-emacs/" (22076 62799 0 0) "source-code-pro/" "readme.md" "configs/" "add_to_readme.md" ".git/" ".DS_Store" "../" "./")
 
