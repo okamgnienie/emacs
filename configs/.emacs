@@ -76,8 +76,8 @@
 ;; (require 'linum-relative) ;; ???
 
 ;; -------------------- GENERAL CONFIG --------------------
-;; Enable xclip:
-;; (xclip-mode 1)
+;; Run SmartParens:
+(smartparens-mode)
 
 ;; Run Interactively Do Things:
 (ido-mode t)
