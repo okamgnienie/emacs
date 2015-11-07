@@ -88,6 +88,9 @@
 ;; Disable emacs top menu bar:
 (menu-bar-mode -1)
 
+;; Disable emacs top toolbar:
+(tool-bar-mode -1)
+
 ;; Disable side scrollbars:
 (scroll-bar-mode -1)
 
