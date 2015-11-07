@@ -77,7 +77,7 @@
 
 ;; -------------------- GENERAL CONFIG --------------------
 ;; Run SmartParens:
-(smartparens-mode)
+(smartparens-global-mode)
 
 ;; Run Interactively Do Things:
 (ido-mode t)
@@ -160,10 +160,6 @@
 ;; 	     "~/.emacs.d/plugins/yasnippet")
 
 ;; (yas-global-mode 1)
-
-(require 'smartparens-config)
-(smartparens-mode t)
-
 
 ;; (global-set-key (kbd "C-c i") 'js-doc-insert-function-doc)
 
