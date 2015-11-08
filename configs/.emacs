@@ -73,11 +73,13 @@
 (require 'auto-complete)
 (require 'multiple-cursors)
 (require 'magit)
+(require 'highlight-parentheses)
 ;; (require 'linum-relative) ;; ???
 
 ;; -------------------- GENERAL CONFIG --------------------
-;; Run SmartParens:
+;; Brackets related config:
 (smartparens-global-mode)
+(global-highlight-parentheses-mode)
 
 ;; Run Interactively Do Things:
 (ido-mode t)
