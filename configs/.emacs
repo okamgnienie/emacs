@@ -68,6 +68,9 @@
 ;; Disable text wrapping:
 (setq-default truncate-lines 1)
 
+;; Load theme:
+(column-number-mode)
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;                                   AUTORUN                                  ;;
