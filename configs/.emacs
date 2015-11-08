@@ -38,11 +38,15 @@
 (require 'multiple-cursors)
 (require 'magit)
 (require 'highlight-parentheses)
+(require 'yasnippet)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;                                GENERAL CONFIG                              ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; Load theme:
+(load-theme 'atom-one-dark t)
 
 ;; Enable line numbers on the left windows side:
 (global-linum-mode t)
@@ -62,14 +66,16 @@
 ;; Disable initial splash screen
 (setq inhibit-splash-screen t)
 
-;; Load theme:
-(load-theme 'atom-one-dark t)
-
 ;; Disable text wrapping:
 (setq-default truncate-lines 1)
 
 ;; Load theme:
 (column-number-mode)
+
+;; Yasnippet config:
+(add-to-list 'load-path
+              "~/.emacs.d/plugins/yasnippet")
+(yas-global-mode 1)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
