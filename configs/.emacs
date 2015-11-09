@@ -124,8 +124,10 @@
 (define-key ac-complete-mode-map "\C-n" 'ac-next)
 (define-key ac-complete-mode-map "\C-p" 'ac-previous)
 
-;; Bind ace jump schortcut:
+;; Ace Jump keybindings:
 (define-key global-map (kbd "C-c SPC") 'ace-jump-mode)
+(define-key global-map (kbd "C-c l") 'ace-jump-line-mode)
+(define-key global-map (kbd "C-c w") 'ace-jump-word-mode)
 
 ;; Setup smex
 (smex-initialize)
