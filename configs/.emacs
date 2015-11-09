@@ -63,7 +63,7 @@
 ;; Setup format of the line numering:
 (setq linum-format " %2d  ")
 
-;; Disable initial splash screen
+;; Disable initial splash screen:
 (setq inhibit-splash-screen t)
 
 ;; Disable text wrapping:
@@ -95,6 +95,9 @@
 ;; Run projectile on startup:
 (projectile-global-mode)
 
+;; Run smex:
+(smex-initialize)
+
 ;; Automatically activate js-mode for JSON files:
 (add-to-list 'auto-mode-alist '("\\.json$" . js-mode))
 (add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
@@ -118,6 +121,7 @@
 (global-set-key (kbd "<left>") 'undo)
 (global-set-key (kbd "<right>") 'redo)
 
+;; Selecting text region:
 (global-set-key (kbd "M-s") 'er/expand-region)
 
 ;; Use Ctrl+n and Ctrl+p to select item from the autocomplete list:
@@ -129,9 +133,7 @@
 (define-key global-map (kbd "C-c l") 'ace-jump-line-mode)
 (define-key global-map (kbd "C-c w") 'ace-jump-word-mode)
 
-;; Setup smex
-(smex-initialize)
-
+;; Smex keybindings:
 (global-set-key (kbd "M-x") 'smex)
 (global-set-key (kbd "M-X") 'smex-major-mode-commands)
 
