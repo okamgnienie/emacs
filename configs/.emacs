@@ -78,6 +78,13 @@
               "~/.emacs.d/plugins/yasnippet")
 (yas-global-mode 1)
 
+;; Set tab indent:
+(setq-default indent-tabs-mode nil)
+(setq standard-indent 2)
+(setq js-indent-level 2)
+(setq js2-indent-level 2)
+(setq js2-basic-offset 2)
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;                                   AUTORUN                                  ;;
