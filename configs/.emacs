@@ -88,6 +88,9 @@
 ;; Prevent emacs from doing auto backups:
 (setq make-backup-files nil)
 
+;; Set default font size:
+(set-face-attribute 'default nil :height 140)
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;                                   AUTORUN                                  ;;
@@ -170,3 +173,4 @@
 
 ;; Use y/n instead of yes/no when ask for save etc. in the minibuffer:
 (defalias 'yes-or-no-p 'y-or-n-p)
+
