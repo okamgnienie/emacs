@@ -40,6 +40,7 @@
 (require 'highlight-parentheses)
 (require 'yasnippet)
 (require 'js2-mode)
+(require 'nyan-mode)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -90,6 +91,9 @@
 
 ;; Set default font size:
 (set-face-attribute 'default nil :height 140)
+
+;; Activate nyan cat mode:
+(nyan-mode)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
