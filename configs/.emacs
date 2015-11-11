@@ -41,6 +41,7 @@
 (require 'yasnippet)
 (require 'js2-mode)
 (require 'nyan-mode)
+(require 'powerline)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -49,6 +50,9 @@
 
 ;; Load theme:
 (load-theme 'atom-one-dark t)
+
+;; Load powerline:
+(powerline-default-theme)
 
 ;; Enable line numbers on the left windows side:
 (global-linum-mode t)
