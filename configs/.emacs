@@ -53,6 +53,7 @@
 
 ;; Load powerline:
 (powerline-default-theme)
+(setq ns-use-srgb-colorspace nil)
 
 ;; Enable line numbers on the left windows side:
 (global-linum-mode t)
