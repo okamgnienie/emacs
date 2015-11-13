@@ -180,3 +180,11 @@
 ;; Use y/n instead of yes/no when ask for save etc. in the minibuffer:
 (defalias 'yes-or-no-p 'y-or-n-p)
 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;                                CUSTOM THEMING                              ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(custom-set-faces
+ '(ace-jump-face-background ((t (:background nil :foreground "#5C6370" :inverse-video nil))))
+ '(ace-jump-face-foreground ((t (:background nil :foreground "#E06C75" :inverse-video nil)))))
