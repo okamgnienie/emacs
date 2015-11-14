@@ -97,6 +97,10 @@
 ;; Set default font size:
 (set-face-attribute 'default nil :height 140)
 
+;; Set font to Adobe Source Code Pro:
+;; (add-to-list 'default-frame-alist '(font .  "Source Code Pro-13" ))
+;; (set-face-attribute 'default t :font  "Source Code Pro-13")
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;                                   AUTORUN                                  ;;
@@ -185,6 +189,13 @@
 ;;                                CUSTOM THEMING                              ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+
 (custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
  '(ace-jump-face-background ((t (:background nil :foreground "#5C6370" :inverse-video nil))))
- '(ace-jump-face-foreground ((t (:background nil :foreground "#E06C75" :inverse-video nil)))))
+ '(ace-jump-face-foreground ((t (:background nil :foreground "#E06C75" :inverse-video nil))))
+ '(linum ((t (:inherit font-lock-comment-face)))))
+
