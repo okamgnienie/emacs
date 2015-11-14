@@ -197,5 +197,7 @@
  ;; If there is more than one, they won't work right.
  '(ace-jump-face-background ((t (:background nil :foreground "#5C6370" :inverse-video nil))))
  '(ace-jump-face-foreground ((t (:background nil :foreground "#E06C75" :inverse-video nil))))
+ '(ido-first-match ((t (:inherit error :weight bold))))
+ '(ido-subdir ((t (:foreground "#E5C07B"))))
  '(linum ((t (:inherit font-lock-comment-face)))))
 
