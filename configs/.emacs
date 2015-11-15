@@ -42,6 +42,7 @@
 (require 'js2-mode)
 (require 'nyan-mode)
 (require 'powerline)
+(require 'hlinum)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -125,6 +126,9 @@
 ;; Automatically activate js-mode for JSON files:
 (add-to-list 'auto-mode-alist '("\\.json$" . js-mode))
 (add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
+
+;; Activate highlighting current line on linum:
+(hlinum-activate)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
