@@ -69,7 +69,7 @@
 (scroll-bar-mode -1)
 
 ;; Setup format of the line numering:
-(setq linum-format " %2d  ")
+(setq linum-format " %2d ")
 
 ;; Disable initial splash screen:
 (setq inhibit-splash-screen t)
