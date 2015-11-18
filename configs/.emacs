@@ -44,6 +44,7 @@
 (require 'powerline)
 (require 'hlinum)
 (require 'syntax-subword)
+(require 'less-css-mode)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
