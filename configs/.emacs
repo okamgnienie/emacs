@@ -43,6 +43,7 @@
 (require 'nyan-mode)
 (require 'powerline)
 (require 'hlinum)
+(require 'syntax-subword)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -130,6 +131,8 @@
 ;; Activate highlighting current line on linum:
 (hlinum-activate)
 
+;; Activate camelCase sense:
+(global-subword-mode)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;                           ADDITIONAL KEYBINDINGS                           ;;
