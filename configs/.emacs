@@ -46,6 +46,7 @@
 (require 'syntax-subword)
 (require 'less-css-mode)
 (require 'undo-tree)
+(require 'helm)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
