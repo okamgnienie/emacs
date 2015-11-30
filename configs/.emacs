@@ -101,6 +101,9 @@
 ;; Set default font size:
 (set-face-attribute 'default nil :height 140)
 
+;; Remove trailing whitespaces on save:
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
+
 ;; Set font to Adobe Source Code Pro:
 ;; (add-to-list 'default-frame-alist '(font .  "Source Code Pro-13" ))
 ;; (set-face-attribute 'default t :font  "Source Code Pro-13")
@@ -135,6 +138,7 @@
 
 ;; Activate camelCase sense:
 (global-subword-mode)
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;                           ADDITIONAL KEYBINDINGS                           ;;
@@ -200,7 +204,6 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;                                CUSTOM THEMING                              ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
