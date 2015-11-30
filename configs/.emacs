@@ -45,6 +45,9 @@
 (require 'hlinum)
 (require 'syntax-subword)
 (require 'less-css-mode)
+(require 'undo-tree)
+(require 'helm)
+(require 'scss-mode)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -138,6 +141,9 @@
 
 ;; Activate camelCase sense:
 (global-subword-mode)
+
+;; Activate Undo Tree:
+(global-undo-tree-mode)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
