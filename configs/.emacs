@@ -48,6 +48,7 @@
 (require 'undo-tree)
 (require 'helm)
 (require 'scss-mode)
+(require 'god-mode)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -182,6 +183,9 @@
 
 ;; Magit:
 (global-set-key (kbd "C-c m") 'magit-status)
+
+;; God mode:
+(global-set-key (kbd "M-g") 'god-mode)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
