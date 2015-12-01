@@ -108,6 +108,10 @@
 ;; Remove trailing whitespaces on save:
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
+;; Change cursor and linum color in god mode:
+(add-hook 'god-mode-enabled-hook 'activate-red-cursor)
+(add-hook 'god-mode-disabled-hook 'activate-blue-cursor)
+
 ;; Set font to Adobe Source Code Pro:
 ;; (add-to-list 'default-frame-alist '(font .  "Source Code Pro-13" ))
 ;; (set-face-attribute 'default t :font  "Source Code Pro-13")
@@ -185,7 +189,7 @@
 (global-set-key (kbd "C-c m") 'magit-status)
 
 ;; God mode:
-(global-set-key (kbd "M-g") 'god-mode)
+(global-set-key (kbd "M-g") 'god-mode-all)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -201,6 +205,17 @@
 	(setq beg (region-beginning) end (region-end))
       (setq beg (line-beginning-position) end (line-end-position)))
     (comment-or-uncomment-region beg end)))
+
+
+(defun activate-red-cursor ()
+  (set-face-foreground 'linum-highlight-face "#ff4500")
+  (set-cursor-color "#ff4500"))
+
+
+(defun activate-blue-cursor ()
+  (custom-set-faces
+   (set-face-foreground 'linum-highlight-face "#528BFF")
+   (set-cursor-color "#528BFF")))
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
