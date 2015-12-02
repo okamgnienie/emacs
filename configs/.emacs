@@ -206,16 +206,14 @@
       (setq beg (line-beginning-position) end (line-end-position)))
     (comment-or-uncomment-region beg end)))
 
-
 (defun activate-red-cursor ()
   (set-face-foreground 'linum-highlight-face "#ff4500")
   (set-cursor-color "#ff4500"))
 
 
 (defun activate-blue-cursor ()
-  (custom-set-faces
-   (set-face-foreground 'linum-highlight-face "#528BFF")
-   (set-cursor-color "#528BFF")))
+  (set-face-foreground 'linum-highlight-face "#528BFF")
+  (set-cursor-color "#528BFF"))
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
