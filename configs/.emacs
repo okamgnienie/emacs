@@ -109,7 +109,7 @@
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
 ;; Change cursor and linum color in god mode:
-(add-hook 'god-mode-enabled-hook 'activate-red-cursor)
+(add-hook 'god-mode-enabled-hook 'activate-yellow-cursor)
 (add-hook 'god-mode-disabled-hook 'activate-blue-cursor)
 
 ;; Set font to Adobe Source Code Pro:
@@ -206,9 +206,9 @@
       (setq beg (line-beginning-position) end (line-end-position)))
     (comment-or-uncomment-region beg end)))
 
-(defun activate-red-cursor ()
-  (set-face-foreground 'linum-highlight-face "#ff4500")
-  (set-cursor-color "#ff4500"))
+(defun activate-yellow-cursor ()
+  (set-face-foreground 'linum-highlight-face "#FFDD33")
+  (set-cursor-color "#FFDD33"))
 
 
 (defun activate-blue-cursor ()
