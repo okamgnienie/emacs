@@ -49,6 +49,7 @@
 (require 'helm)
 (require 'scss-mode)
 (require 'god-mode)
+(require 'use-package)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -159,8 +160,8 @@
 (global-set-key (kbd "M-;") 'comment-or-uncomment-region-or-line)
 
 ;; Mark previous/next lines like this:
-(global-set-key (kbd "M-.") 'mc/mark-next-like-this)
-(global-set-key (kbd "M-,") 'mc/mark-previous-like-this)
+(bind-key* "M-." 'mc/mark-next-like-this)
+(bind-key* "M-," 'mc/mark-previous-like-this)
 
 ;; Cut selected region:
 (global-set-key (kbd "C-x C-k") 'kill-region)
