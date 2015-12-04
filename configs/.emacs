@@ -211,6 +211,15 @@
   (set-face-foreground 'linum-highlight-face "#528BFF")
   (set-cursor-color "#528BFF"))
 
+;; Change bell to mode-line highlight:
+(defun my-terminal-visible-bell ()
+   "A friendlier visual bell effect."
+   (invert-face 'mode-line)
+   (run-with-timer 0.1 nil 'invert-face 'mode-line))
+
+ (setq visible-bell nil
+       ring-bell-function 'my-terminal-visible-bell)
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;                                   ALIASES                                  ;;
