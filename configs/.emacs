@@ -41,7 +41,6 @@
 (require 'yasnippet)
 (require 'js2-mode)
 (require 'nyan-mode)
-(require 'powerline)
 (require 'hlinum)
 (require 'syntax-subword)
 (require 'less-css-mode)
@@ -58,10 +57,6 @@
 
 ;; Load theme:
 (load-theme 'atom-one-dark t)
-
-;; Load powerline:
-(powerline-default-theme)
-(setq ns-use-srgb-colorspace nil)
 
 ;; Enable line numbers on the left windows side:
 (global-linum-mode t)
