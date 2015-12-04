@@ -239,7 +239,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(ace-jump-face-background ((t (:background nil :foreground "#5C6370" :inverse-video nil))))
- '(ace-jump-face-foreground ((t (:background nil :foreground "#E06C75" :inverse-video nil))))
+ '(ace-jump-face-foreground ((t (:background nil :foreground "#FFDD33" :inverse-video nil :weight bold))))
  '(ido-first-match ((t (:inherit error :weight bold))))
  '(ido-only-match ((t (:foreground "#528BFF" :weight bold))))
  '(ido-subdir ((t (:foreground "#E5C07B"))))
