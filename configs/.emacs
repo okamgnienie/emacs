@@ -176,6 +176,7 @@
 (define-key global-map (kbd "C-c SPC") 'ace-jump-mode)
 (define-key global-map (kbd "C-c l") 'ace-jump-line-mode)
 (define-key global-map (kbd "C-c w") 'ace-jump-word-mode)
+(define-key global-map (kbd "C-c c") 'ace-jump-char-mode)
 
 ;; Smex keybindings:
 (global-set-key (kbd "M-x") 'smex)
