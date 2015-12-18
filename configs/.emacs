@@ -94,9 +94,13 @@
 (setq js2-indent-level 2)
 (setq js2-basic-offset 2)
 
-;; Prevent emacs from doing auto backups and autosave:
-(setq make-backup-files nil)
-(setq auto-save-default nil)
+;; Configure backups:
+(setq backup-directory-alist `(("." . "~/.Saves")))
+(setq backup-by-copying t)
+(setq delete-old-versions t
+      kept-new-versions 6
+      kept-old-versions 2
+      version-control t)
 
 ;; Set default font size:
 (set-face-attribute 'default nil :height 140)
