@@ -50,6 +50,7 @@
 (require 'god-mode)
 (require 'use-package)
 (require 'avy)
+(require 'markdown-mode)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
