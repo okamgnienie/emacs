@@ -5,7 +5,7 @@ My personal configuration of Emacs used for front-end development.
 
 ## Installation
 1. Download repository.
-2. Symlink or copy configs/.emacs and configs/.emacs.d to your home directory.
+2. Symlink or copy `./configs/.emacs` and `./configs/.emacs.d` to your home directory.
 
 ## Included packages
 - redo+
