@@ -49,6 +49,7 @@
 (require 'scss-mode)
 (require 'god-mode)
 (require 'use-package)
+(require 'avy)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
