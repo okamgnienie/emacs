@@ -178,11 +178,11 @@
 (define-key ac-complete-mode-map "\C-n" 'ac-next)
 (define-key ac-complete-mode-map "\C-p" 'ac-previous)
 
-;; Ace Jump keybindings:
-(define-key global-map (kbd "C-c SPC") 'ace-jump-mode)
-(define-key global-map (kbd "C-c l") 'ace-jump-line-mode)
-(define-key global-map (kbd "C-c w") 'ace-jump-word-mode)
-(define-key global-map (kbd "C-c c") 'ace-jump-char-mode)
+;; Avy keybindings:
+(define-key global-map (kbd "C-c SPC") 'avy-goto-char-2)
+(define-key global-map (kbd "C-c l") 'avy-goto-line)
+(define-key global-map (kbd "C-c w") 'avy-goto-word-1)
+(define-key global-map (kbd "C-c c") 'avy-goto-char)
 
 ;; Smex keybindings:
 (global-set-key (kbd "M-x") 'smex)
