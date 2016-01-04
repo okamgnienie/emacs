@@ -59,6 +59,6 @@ My personal configuration of Emacs used for front-end development.
     - `Alt + x` - open console
 
 - Avy
-    - `Ctrl + space` - go to word with avy (two letters)
-    - `Ctrl + w` - go to word with avy (one letter)
-    - `Ctrl + l` - go to line with avy
+    - `Ctrl + space` - go to word (two letters)
+    - `Ctrl + w` - go to word (one letter)
+    - `Ctrl + l` - go to line
