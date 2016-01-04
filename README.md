@@ -34,3 +34,31 @@ My personal configuration of Emacs used for front-end development.
 - [use-package](https://github.com/jwiegley/use-package)
 - [avy](https://github.com/abo-abo/avy)
 - [markdown-mode](http://jblevins.org/projects/markdown-mode/)
+
+## Key bindings
+- Movement
+    - `Ctrl + f` - move forward
+    - `Ctrl + b` - move backward
+    - `Ctrl + n` -  move to next line
+    - `Ctrl + p` - move to previous line
+    - `Ctrl + a` - move to beginning of the line
+    - `Ctrl + e` - move to ending of the line
+    - `Alt + f` - move word forward
+    - `Alt + b` - move word backward
+
+- History, search and selection
+    - `Left arrow` - undo
+    - `Right arrow` - redo
+    - `Ctrl + s` - search (forward)
+    - `Ctrl + r` - search (backward)
+    - `C-space` - enter/exit mark mode
+
+- Files and console
+    - `Ctrl + c p f` - search file
+    - `Ctrl + x b` - search through open files
+    - `Alt + x` - open console
+
+- Avy
+    - `Ctrl + space` - go to word with avy (two letters)
+    - `Ctrl + w` - go to word with avy (one letter)
+    - `Ctrl + l` - go to line with avy
