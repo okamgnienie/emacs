@@ -47,16 +47,20 @@ My personal configuration of Emacs used for front-end development.
     - `Alt + b` - move word backward
 
 - History, search and selection
+    - `Alt + w` - copy
+    - `Ctrl + k` - cut
+    - `Ctrl + y` - paste, then by pressing `y` paste previously copied text
     - `Left arrow` - undo
     - `Right arrow` - redo
     - `Ctrl + s` - search (forward)
     - `Ctrl + r` - search (backward)
-    - `C-space` - enter/exit mark mode
+    - `Ctrl + space` - enter/exit mark mode
 
 - Files and console
     - `Ctrl + c p f` - search file
     - `Ctrl + x b` - search through open files
     - `Alt + x` - open console
+    - `Ctrl + x Ctrl + f` - browse files
 
 - Avy
     - `Ctrl + space` - go to word (two letters)
