@@ -10,7 +10,6 @@ My personal configuration of Emacs used for front-end development.
 ## Included packages
 - redo+
 - [expand-region](https://github.com/magnars/expand-region.el)
-- [ace-jump-mode](https://github.com/winterTTr/ace-jump-mode)
 - [smex](https://github.com/nonsequitur/smex)
 - [ido](https://github.com/DarwinAwardWinner/ido-ubiquitous)
 - [yasnippet](http://github.com/capitaomorte/yasnippet)
@@ -19,10 +18,10 @@ My personal configuration of Emacs used for front-end development.
 - [ac-js2](https://github.com/ScottyB/ac-js2)
 - [projectile](https://github.com/bbatsov/projectile)
 - [smartparens](https://github.com/Fuco1/smartparens)
-- auto-complete
+- [auto-complete](https://github.com/auto-complete/auto-complete)
 - [multiple-cursors](https://github.com/magnars/multiple-cursors.el)
 - [magit](https://github.com/magit/magit)
-- highlight-parentheses
+- [highlight-parentheses](https://github.com/tsdh/highlight-parentheses.el)
 - [yasnippet](http://github.com/capitaomorte/yasnippet)
 - [nyan-mode](https://github.com/TeMPOraL/nyan-mode/)
 - [hlinum](https://github.com/tom-tan/hlinum-mode/)
