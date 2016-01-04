@@ -56,6 +56,11 @@ My personal configuration of Emacs used for front-end development.
     - `Ctrl + r` - search (backward)
     - `Ctrl + space` - enter/exit mark mode
 
+- Text removal
+    - `Alt + backspace` - remove word backward
+    - `Alt + d` - remove word forward
+    - `Ctrl + d` - remove character forward
+
 - Files and console
     - `Ctrl + c p f` - search file
     - `Ctrl + x b` - search through open files
