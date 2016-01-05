@@ -25,7 +25,6 @@
 
 (require 'redo+)
 (require 'expand-region)
-(require 'ace-jump-mode)
 (require 'smex)
 (require 'ido)
 (require 'yasnippet)
