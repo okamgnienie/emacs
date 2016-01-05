@@ -38,7 +38,6 @@
 (require 'magit)
 (require 'highlight-parentheses)
 (require 'yasnippet)
-(require 'js2-mode)
 (require 'nyan-mode)
 (require 'hlinum)
 (require 'syntax-subword)
