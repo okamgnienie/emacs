@@ -249,7 +249,7 @@
  '(avy-lead-face-0 ((t (:foreground "#E06C75" :weight normal))))
  '(avy-lead-face-1 ((t (:foreground "#7FFF00" :weight normal))))
  '(avy-lead-face-2 ((t (:foreground "#56B6C2" :weight normal))))
- '(ido-first-match ((t (:inherit error :weight bold))))
+ '(ido-first-match ((t (:foreground "#E06C75" :weight bold))))
  '(ido-only-match ((t (:foreground "#528BFF" :weight bold))))
  '(ido-subdir ((t (:foreground "#E5C07B"))))
  '(linum ((t (:stipple nil :background "#282C34" :distant-foreground "#5C6370" :foreground "#5C6370" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal))))
