@@ -46,7 +46,13 @@ My personal configuration of Emacs used for front-end development.
     - `Alt + f` - move word forward
     - `Alt + b` - move word backward
 
-- History, search and selection
+- Selection
+    - `Ctrl + space` - enter/exit text selection mode
+    - `Ctrl + .` - mark next like this
+    - `Ctrl + ,` - mark previous like this
+    - `Ctrl + j` - new line for many cursors
+
+- History and search
     - `Alt + w` - copy
     - `Ctrl + k` - cut
     - `Ctrl + y` - paste, then by pressing `y` paste previously copied text
@@ -54,7 +60,6 @@ My personal configuration of Emacs used for front-end development.
     - `Right arrow` - redo
     - `Ctrl + s` - search (forward)
     - `Ctrl + r` - search (backward)
-    - `Ctrl + space` - enter/exit mark mode
 
 - Text removal
     - `Alt + backspace` - remove word backward
