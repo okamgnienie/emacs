@@ -60,6 +60,7 @@ My personal configuration of Emacs used for front-end development.
     - `Right arrow` - redo
     - `Ctrl + s` - search (forward)
     - `Ctrl + r` - search (backward)
+    - `Ctrl + c g` - recursive grep
 
 - Text removal
     - `Alt + backspace` - remove word backward
@@ -76,3 +77,10 @@ My personal configuration of Emacs used for front-end development.
     - `Ctrl + space` - go to word (two letters)
     - `Ctrl + w` - go to word (one letter)
     - `Ctrl + l` - go to line
+
+- JavaScript
+    - `f tab` - anonymous function snippet
+    - `fn tab` - named function snippet
+    - `i tab` - if snippet
+    - `ie tab` - if else snippet
+    - `Ctrl + c i` - js function description comment
