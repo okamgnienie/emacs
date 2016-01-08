@@ -37,7 +37,6 @@
 (require 'multiple-cursors)
 (require 'magit)
 (require 'highlight-parentheses)
-(require 'yasnippet)
 (require 'nyan-mode)
 (require 'hlinum)
 (require 'syntax-subword)
