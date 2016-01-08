@@ -194,6 +194,9 @@
 ;; Recursive grep:
 (global-set-key (kbd "C-c g") 'rgrep)
 
+;; Comment JavaScript function:
+(define-key js2-mode-map (kbd "C-c i") 'js-doc-insert-function-doc)
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;                            ADDITIONAL FUNCTIONS                            ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
