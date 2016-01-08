@@ -191,6 +191,8 @@
 ;; God mode:
 (global-set-key (kbd "M-g") 'god-mode-all)
 
+;; Recursive grep:
+(global-set-key (kbd "C-c g") 'rgrep)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;                            ADDITIONAL FUNCTIONS                            ;;
