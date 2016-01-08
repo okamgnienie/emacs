@@ -51,6 +51,7 @@ My personal configuration of Emacs used for front-end development.
     - `Ctrl + .` - mark next like this
     - `Ctrl + ,` - mark previous like this
     - `Ctrl + j` - new line for many cursors
+    - `Alt + s` - expand selection, then by pressing `s` expand it wider
 
 - History and search
     - `Alt + w` - copy
