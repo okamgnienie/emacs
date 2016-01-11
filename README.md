@@ -34,6 +34,7 @@ My personal configuration of Emacs used for front-end development.
 - [use-package](https://github.com/jwiegley/use-package)
 - [avy](https://github.com/abo-abo/avy)
 - [markdown-mode](http://jblevins.org/projects/markdown-mode/)
+- [php-mode](https://github.com/ejmr/php-mode)
 
 ## Key bindings
 - Movement
