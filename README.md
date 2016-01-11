@@ -1,5 +1,5 @@
-# hardyn-emacs
-My personal configuration of Emacs used for front-end development.
+# javascript-emacs
+GNU Emacs configuration for JavaScript development.
 
 ![main](images/main.png)
 
