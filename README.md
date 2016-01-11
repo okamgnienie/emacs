@@ -36,6 +36,7 @@ GNU Emacs configuration for JavaScript development.
 - [avy](https://github.com/abo-abo/avy)
 - [markdown-mode](http://jblevins.org/projects/markdown-mode/)
 - [php-mode](https://github.com/ejmr/php-mode)
+- [smart-forward](https://github.com/magnars/smart-forward.el)
 
 ## Key bindings
 - Movement
@@ -47,6 +48,10 @@ GNU Emacs configuration for JavaScript development.
     - `Ctrl + e` - move to ending of the line
     - `Alt + f` - move word forward
     - `Alt + b` - move word backward
+    - `Alt + right arrow` - move forward (semantic)
+    - `Alt + left arrow` - move backward (semantic)
+    - `Alt + up arrow` - move up (semantic)
+    - `Alt + down arrow` - move down (semantic)
 
 - Selection
     - `Ctrl + space` - enter/exit text selection mode

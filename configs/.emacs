@@ -48,7 +48,7 @@
 (require 'use-package)
 (require 'avy)
 (require 'markdown-mode)
-
+(require 'smart-forward)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;                                GENERAL CONFIG                              ;;
@@ -199,6 +199,12 @@
 
 ;; Search project files (helm):
 (global-set-key (kbd "M-h") 'helm-projectile)
+
+;; Smart forward:
+(global-set-key (kbd "M-<up>") 'smart-up)
+(global-set-key (kbd "M-<down>") 'smart-down)
+(global-set-key (kbd "M-<left>") 'smart-backward)
+(global-set-key (kbd "M-<right>") 'smart-forward)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;                            ADDITIONAL FUNCTIONS                            ;;
