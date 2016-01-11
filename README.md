@@ -29,6 +29,7 @@ My personal configuration of Emacs used for front-end development.
 - [less-css-mode](https://github.com/purcell/less-css-mode)
 - [undo-tree](http://www.dr-qubit.org/emacs.php)
 - [helm](https://emacs-helm.github.io/helm/)
+- [helm-projectile](https://github.com/bbatsov/helm-projectile)
 - [scss-mode](https://github.com/antonj/scss-mode)
 - [god-mode](https://github.com/chrisdone/god-mode)
 - [use-package](https://github.com/jwiegley/use-package)
