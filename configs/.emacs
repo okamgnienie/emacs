@@ -197,6 +197,9 @@
 ;; Comment JavaScript function:
 (define-key js2-mode-map (kbd "C-c i") 'js-doc-insert-function-doc)
 
+;; Search project files (helm):
+(global-set-key (kbd "M-h") 'helm-projectile)
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;                            ADDITIONAL FUNCTIONS                            ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

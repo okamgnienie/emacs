@@ -71,6 +71,7 @@ My personal configuration of Emacs used for front-end development.
 
 - Files and console
     - `Ctrl + c p f` - search file
+    - `Alt + h` - search file (helm)
     - `Ctrl + x b` - search through open files
     - `Alt + x` - open console
     - `Ctrl + x Ctrl + f` - browse files
