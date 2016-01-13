@@ -281,4 +281,10 @@
     (97 115 100 102 103 104 106 107 108 113 119 101 114 116 121 117 105 111 112 122 120 99 118 98 110 109)))
  '(mode-line-format
    (quote
-    ("%e" "[" mode-line-modified mode-line-remote "] " "[" "%02l" "," "%02c" "] " mode-line-buffer-identification mode-line-end-spaces))))
+    ("%e" "["
+     ;; (:propertize mode-line-modified face error)
+     (:eval
+      (cond ((buffer-modified-p)
+             (propertize "**" 'face 'error))
+            (t "--")))
+     mode-line-remote "] " "[" "%02l" "," "%02c" "] " (:propertize mode-line-buffer-identification face ((t (:foreground "steelblue" :weight bold)))) mode-line-end-spaces))))
