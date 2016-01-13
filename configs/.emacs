@@ -282,9 +282,18 @@
  '(mode-line-format
    (quote
     ("%e" "["
-     ;; (:propertize mode-line-modified face error)
      (:eval
-      (cond ((buffer-modified-p)
-             (propertize "**" 'face 'error))
-            (t "--")))
-     mode-line-remote "] " "[" "%02l" "," "%02c" "] " (:propertize mode-line-buffer-identification face ((t (:foreground "steelblue" :weight bold)))) mode-line-end-spaces))))
+      (cond
+       ((buffer-modified-p)
+        (propertize "***"
+                    (quote face)
+                    (quote error)))
+       (t
+        (propertize "-*-"
+                    (quote face)
+                    (quote success)))))
+     "] " "(" "%02l" "," "%02c" ") "
+     (:propertize mode-line-buffer-identification face
+                  ((t
+                    (:foreground "#61AFEF" :weight normal))))
+     mode-line-end-spaces))))
