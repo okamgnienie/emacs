@@ -93,3 +93,6 @@ GNU Emacs configuration for JavaScript development.
     - `i tab` - if snippet
     - `ie tab` - if else snippet
     - `Ctrl + c i` - js function description comment
+
+- Other
+    - `Alt + ;` - comment/uncomment line/selection
