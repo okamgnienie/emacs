@@ -37,6 +37,7 @@ GNU Emacs configuration for JavaScript development.
 - [markdown-mode](http://jblevins.org/projects/markdown-mode/)
 - [php-mode](https://github.com/ejmr/php-mode)
 - [smart-forward](https://github.com/magnars/smart-forward.el)
+- [web-mode](https://github.com/fxbois/web-mode)
 
 ## Key bindings
 - Movement
