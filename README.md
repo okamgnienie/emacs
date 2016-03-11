@@ -60,6 +60,7 @@ GNU Emacs configuration for JavaScript development.
     - `Ctrl + ,` - mark previous like this
     - `Ctrl + j` - new line for many cursors
     - `Alt + s` - expand selection, then by pressing `s` expand it wider
+    - `Ctrl + x + p` - select all
 
 - History and search
     - `Alt + w` - copy
