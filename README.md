@@ -96,6 +96,12 @@ GNU Emacs configuration for JavaScript development.
   - `ie tab` - if else snippet
   - `Ctrl + c i` - js function description comment
 
+- Windows
+  - `Ctrl + x 3` - split screen vertically
+  - `Ctrl + x 2` - split screen horizontally
+  - `Ctrl + x o` - move to next window
+  - `Ctrl + x 0` - close window
+
 - Other
   - `Alt + ;` - comment/uncomment line/selection
   - `Ctrl + x u` - open undo-tree buffer
