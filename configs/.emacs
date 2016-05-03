@@ -269,7 +269,7 @@
  '(ido-only-match ((t (:foreground "#528BFF" :weight bold))))
  '(ido-subdir ((t (:foreground "#E5C07B"))))
  '(linum ((t (:stipple nil :background "#282C34" :distant-foreground "#5C6370" :foreground "#5C6370" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal))))
- '(linum-highlight-face ((t (:stipple nil :background "#282C34" :distant-foreground "#5C6370" :foreground "#528BFF" :weight bold :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal)))))
+ '(linum-highlight-face ((t (:stipple nil :background "#2F343D" :distant-foreground "#5C6370" :foreground "#528BFF" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight bold)))))
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -279,6 +279,9 @@
  '(avy-keys
    (quote
     (97 115 100 102 103 104 106 107 108 113 119 101 114 116 121 117 105 111 112 122 120 99 118 98 110 109)))
+ '(global-hl-line-mode t)
+ '(global-linum-mode t)
+ '(linum-format " %2d ")
  '(mode-line-format
    (quote
     ("%e" "["
