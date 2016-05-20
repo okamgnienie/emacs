@@ -115,6 +115,9 @@
 ;; (add-to-list 'default-frame-alist '(font .  "Source Code Pro-13" ))
 ;; (set-face-attribute 'default t :font  "Source Code Pro-13")
 
+;; Set helm to be opened in current frame:
+(setq helm-split-window-default-side 'same)
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;                                   AUTORUN                                  ;;
