@@ -317,7 +317,9 @@
         (propertize "-*-"
                     (quote face)
                     (quote success)))))
-     "] " "(" "%02l" "," "%02c" ") "
+     "] " "(" "%02l" "," "%02c" ")"
+     (vc-mode vc-mode)
+     " • "
      (:propertize mode-line-buffer-identification face
                   ((t
                     (:foreground "#61AFEF" :weight normal))))
