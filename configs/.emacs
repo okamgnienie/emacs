@@ -195,7 +195,7 @@
 (global-set-key (kbd "M-g") 'god-mode-all)
 
 ;; Recursive grep:
-(global-set-key (kbd "C-c g") 'rgrep)
+(global-set-key (kbd "M-r") 'rgrep)
 
 ;; Comment JavaScript function:
 (define-key js2-mode-map (kbd "C-c i") 'js-doc-insert-function-doc)
