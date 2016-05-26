@@ -53,6 +53,8 @@ GNU Emacs configuration for JavaScript development.
   - `Alt + left arrow` - move backward (semantic)
   - `Alt + up arrow` - move up (semantic)
   - `Alt + down arrow` - move down (semantic)
+  - `Alt + <` - move to beginning of the file
+  - `Alt + >` - move to ending of the file
 
 - Selection
   - `Ctrl + space` - enter/exit text selection mode
@@ -65,7 +67,7 @@ GNU Emacs configuration for JavaScript development.
 - History and search
   - `Alt + w` - copy
   - `Ctrl + k` - cut
-  - `Ctrl + y` - paste, then by pressing `y` paste previously copied text
+  - `Ctrl + y` - paste, then by pressing `Alt + y` paste previously copied text
   - `Left arrow` - undo
   - `Right arrow` - redo
   - `Ctrl + s` - search (forward)
