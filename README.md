@@ -72,7 +72,7 @@ GNU Emacs configuration for JavaScript development.
   - `Right arrow` - redo
   - `Ctrl + s` - search (forward)
   - `Ctrl + r` - search (backward)
-  - `Ctrl + c g` - recursive grep
+  - `Alt + g` - recursive grep
 
 - Text removal
   - `Alt + backspace` - remove word backward
@@ -107,3 +107,4 @@ GNU Emacs configuration for JavaScript development.
 - Other
   - `Alt + ;` - comment/uncomment line/selection
   - `Ctrl + x u` - open undo-tree buffer
+  - `Alt + m` - open magit status buffer
