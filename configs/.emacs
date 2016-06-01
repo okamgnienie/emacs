@@ -49,6 +49,7 @@
 (require 'avy)
 (require 'markdown-mode)
 (require 'smart-forward)
+(require 'smooth-scroll)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;                                GENERAL CONFIG                              ;;
@@ -152,6 +153,8 @@
 ;; Activate Undo Tree:
 (global-undo-tree-mode)
 
+;; Activate smooth scrolling:
+(smooth-scroll-mode t)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;                           ADDITIONAL KEYBINDINGS                           ;;

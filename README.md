@@ -38,6 +38,7 @@ GNU Emacs configuration for JavaScript development.
 - [php-mode](https://github.com/ejmr/php-mode)
 - [smart-forward](https://github.com/magnars/smart-forward.el)
 - [web-mode](https://github.com/fxbois/web-mode)
+- [smooth-scroll](https://www.emacswiki.org/emacs/smooth-scroll.el)
 
 ## Key bindings
 - Movement
