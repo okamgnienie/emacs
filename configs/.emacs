@@ -218,6 +218,10 @@
 ;; Quick shortcut for Magit:
 (global-set-key (kbd "M-m") 'magit-status)
 
+;; Bind better scrolling functions:
+(global-set-key (kbd "M-v") 'scroll-up-one-fifth)
+(global-set-key (kbd "C-v") 'scroll-down-one-fifth)
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;                            ADDITIONAL FUNCTIONS                            ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -270,6 +274,18 @@
   (interactive)
   (setq buffer-display-table (make-display-table))
   (aset buffer-display-table ?\^M []))
+
+;; Better scrolling functions:
+(defun window-one-fifth-height ()
+  (max 1 (/ (1- (window-height (selected-window))) 5)))
+
+(defun scroll-up-one-fifth ()
+  (interactive)
+  (scroll-up (window-one-fifth-height)))
+
+(defun scroll-down-one-fifth ()
+  (interactive)
+  (scroll-down (window-one-fifth-height)))
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

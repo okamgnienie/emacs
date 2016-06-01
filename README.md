@@ -56,6 +56,8 @@ GNU Emacs configuration for JavaScript development.
   - `Alt + down arrow` - move down (semantic)
   - `Alt + <` - move to beginning of the file
   - `Alt + >` - move to ending of the file
+  - `Alt + v` - scroll down
+  - `Ctrl + v` - scroll up
 
 - Selection
   - `Ctrl + space` - enter/exit text selection mode
