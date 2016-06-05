@@ -1,7 +1,22 @@
 # javascript-emacs
 GNU Emacs configuration for JavaScript development.
 
-![main](images/main.png)
+## Features
+
+### Avy
+![avy](gifs/avy.gif)
+
+### Multiple cursors
+![multiple-cursors](gifs/multiple-cursors.gif)
+
+### Recursive grep
+![rgrep](gifs/rgrep.gif)
+
+### Yanking
+![yank](gifs/yank.gif)
+
+### Expanding region
+![expand-region](gifs/expand-region.gif)
 
 ## Installation
 1. Download repository.
