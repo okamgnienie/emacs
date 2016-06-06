@@ -5,23 +5,54 @@ GNU Emacs configuration for JavaScript development.
 
 ### Avy
 Move your cursor easily around whole screen.
-After activating desired mode, insert letter(s) to which you want to jump and press highlighted letter(s) to proceed.
+After activating desired mode, insert letter(s) to which you want to jump and press highlighted key(s) to proceed.
 ![avy](gifs/avy.gif)
 - `Ctrl + l` - go to line
 - `Ctrl + w` - go to word (one letter)
 - `Ctrl + space` - go to word (two letters)
 
 ### Multiple cursors
+Use more than one cursor. You can combine this mode with variety of others.
 ![multiple-cursors](gifs/multiple-cursors.gif)
+- `Alt + .` - add cursor forward/below
+- `Alt + ,` - add cursor backward/up
+
+### Snippets
+Create your own templates or use default set.
+![snippets](gifs/snippets.gif)
+- `f tab` - anonymous function snippet
+- `fn tab` - named function snippet
+- `fnr tab` - named function snippet with return
+- `< tab` - flexible HTML snippet
+- `<c tab` - flexible HTML snippet with class
 
 ### Recursive grep
+Search for code fragments based on string.
 ![rgrep](gifs/rgrep.gif)
+- `Alt + r` - open rgrep
+
+### Undo tree
+Easily try different ideas and never lose code by accident.
+![undo-tree](gifs/undo-tree.gif)
+- `Ctrl + x u` - open undo-tree
+- `Ctrl + f` - move to the right branch
+- `Ctrl + b` - move to the left branch
+
+### Magit
+Manage your git repositories directly in emacs.
+![magit](gifs/magit.gif)
+- `Alt + m` - open magit
+- `h` - open help and show key bindings (in magit)
 
 ### Yanking
+Copy & paste multiple strings.
 ![yank](gifs/yank.gif)
+- `Ctrl + y` - paste, then by pressing `Alt + y` paste previously copied text
 
 ### Expanding region
+Use semantic text selection.
 ![expand-region](gifs/expand-region.gif)
+- `Alt + s` - expand selection, then by pressing `s` expand it wider
 
 ## Installation
 1. Download repository.
