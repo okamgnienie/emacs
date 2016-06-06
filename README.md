@@ -4,7 +4,12 @@ GNU Emacs configuration for JavaScript development.
 ## Features
 
 ### Avy
+Move your cursor easily around whole screen.
+After activating desired mode, insert letter(s) to which you want to jump and press highlighted letter(s) to proceed.
 ![avy](gifs/avy.gif)
+- `Ctrl + l` - go to line
+- `Ctrl + w` - go to word (one letter)
+- `Ctrl + space` - go to word (two letters)
 
 ### Multiple cursors
 ![multiple-cursors](gifs/multiple-cursors.gif)
