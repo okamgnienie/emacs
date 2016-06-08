@@ -222,6 +222,11 @@
 (global-set-key (kbd "M-v") 'scroll-up-one-fifth)
 (global-set-key (kbd "C-v") 'scroll-down-one-fifth)
 
+;; Move region up/down:
+(global-set-key (kbd "M-p") 'move-text-up)
+(global-set-key (kbd "M-n") 'move-text-down)
+
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;                            ADDITIONAL FUNCTIONS                            ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

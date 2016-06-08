@@ -109,6 +109,8 @@ Use semantic text selection.
   - `Alt + >` - move to ending of the file
   - `Alt + v` - scroll down
   - `Ctrl + v` - scroll up
+  - `Alt + p` - move line/region up
+  - `Alt + n` - move line/region down
 
 - Selection
   - `Ctrl + space` - enter/exit text selection mode
