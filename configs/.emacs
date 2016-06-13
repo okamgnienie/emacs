@@ -156,6 +156,10 @@
 ;; Activate smooth scrolling:
 (smooth-scroll-mode t)
 
+;; Scroll line by line:
+(setq scroll-step            1
+      scroll-conservatively  10000)
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;                           ADDITIONAL KEYBINDINGS                           ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
