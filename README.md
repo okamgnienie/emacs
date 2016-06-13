@@ -138,6 +138,7 @@ Use semantic text selection.
 - Files and console
   - `Ctrl + c p f` - search file
   - `Alt + h` - search file (helm)
+  - `Alt + l` - search buffer (helm)
   - `Ctrl + x b` - search through open files
   - `Alt + x` - open console
   - `Ctrl + x Ctrl + f` - browse files
