@@ -219,8 +219,9 @@
 (global-set-key (kbd "M-<left>") 'smart-backward)
 (global-set-key (kbd "M-<right>") 'smart-forward)
 
-;; Removed keybindings:
+;; Remove keybindings:
 (global-set-key (kbd "M-]") nil)
+(global-set-key (kbd "M-c") nil)
 
 ;; Quick shortcut for Magit:
 (global-set-key (kbd "M-m") 'magit-status)
