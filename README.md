@@ -90,6 +90,7 @@ Use semantic text selection.
 - [smart-forward](https://github.com/magnars/smart-forward.el)
 - [web-mode](https://github.com/fxbois/web-mode)
 - [smooth-scroll](https://www.emacswiki.org/emacs/smooth-scroll.el)
+- [csv-mode](https://github.com/emacsmirror/csv-mode)
 
 ## Key bindings
 - Movement
