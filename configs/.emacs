@@ -350,20 +350,18 @@
  '(linum-format " %2d ")
  '(mode-line-format
    (quote
-    ("%e" "["
+    ("%e "
      (:eval
       (cond
        ((buffer-modified-p)
-        (propertize "***"
+        (propertize "✖ modified"
                     (quote face)
                     (quote error)))
        (t
-        (propertize "-*-"
+        (propertize "✔ saved"
                     (quote face)
                     (quote success)))))
-     "] " "(" "%02l" "," "%02c" ")"
-     (vc-mode vc-mode)
-     " • "
+     " • " "%02l" "," "%02c • "
      (:propertize mode-line-buffer-identification face
                   ((t
                     (:foreground "#61AFEF" :weight normal))))
