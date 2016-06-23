@@ -140,6 +140,7 @@ Use semantic text selection.
   - `Ctrl + c p f` - search file
   - `Alt + h` - search file (helm)
   - `Alt + l` - search buffer (helm)
+  - `Alt + c` - search command (helm)
   - `Ctrl + x b` - search through open files
   - `Alt + x` - open console
   - `Ctrl + x Ctrl + f` - browse files

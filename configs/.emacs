@@ -218,6 +218,9 @@
 ;; Search buffers (helm):
 (global-set-key (kbd "M-l") 'helm-buffers-list)
 
+;; Search commands (helm):
+(global-set-key (kbd "M-c") 'helm-M-x)
+
 ;; Smart forward:
 (global-set-key (kbd "M-<up>") 'smart-up)
 (global-set-key (kbd "M-<down>") 'smart-down)
