@@ -119,6 +119,18 @@
 ;; Set helm to be opened in current frame:
 (setq helm-split-window-default-side 'same)
 
+;; Open JSON files with web-mode:
+(add-to-list 'auto-mode-alist '("\\.json$" . js-mode))
+(add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
+
+;; Open styles and templates with web-mode:
+(add-to-list 'auto-mode-alist '("\\.html\\'" . web-mode))
+
+;; Open CSV files with csv-mode:
+(add-to-list 'auto-mode-alist '("\\.[Cc][Ss][Vv]\\'" . csv-mode))
+(autoload 'csv-mode "csv-mode"
+  "Major mode for editing comma-separated value files." t)
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;                                   AUTORUN                                  ;;
@@ -140,10 +152,6 @@
 ;; Run smex:
 (smex-initialize)
 
-;; Automatically activate js-mode for JSON files:
-(add-to-list 'auto-mode-alist '("\\.json$" . js-mode))
-(add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
-
 ;; Activate highlighting current line on linum:
 (hlinum-activate)
 
@@ -160,10 +168,6 @@
 (setq scroll-step            1
       scroll-conservatively  10000)
 
-;; For CSV files:
-(add-to-list 'auto-mode-alist '("\\.[Cc][Ss][Vv]\\'" . csv-mode))
-(autoload 'csv-mode "csv-mode"
-  "Major mode for editing comma-separated value files." t)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;                           ADDITIONAL KEYBINDINGS                           ;;
