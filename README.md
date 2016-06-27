@@ -167,3 +167,6 @@ Use semantic text selection.
   - `Alt + ;` - comment/uncomment line/selection
   - `Ctrl + x u` - open undo-tree buffer
   - `Alt + m` - open magit status buffer
+
+## Credits
+Great thanks to Andrzej for showing me emacs, what made me immediately hooked.
