@@ -3,3 +3,4 @@
 /configs/.emacs.d/smex-items
 /configs/.emacs.d/ac-comphist.dat
 /configs/.emacs.d/auto-save-list/*
+**/.DS_Store
