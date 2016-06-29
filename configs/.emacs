@@ -50,6 +50,8 @@
 (require 'markdown-mode)
 (require 'smart-forward)
 (require 'smooth-scroll)
+(require 'column-enforce-mode)
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;                                GENERAL CONFIG                              ;;

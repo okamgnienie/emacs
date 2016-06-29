@@ -91,6 +91,7 @@ Use semantic text selection.
 - [web-mode](https://github.com/fxbois/web-mode)
 - [smooth-scroll](https://www.emacswiki.org/emacs/smooth-scroll.el)
 - [csv-mode](https://github.com/emacsmirror/csv-mode)
+- [column-enforce-mode](www.github.com/jordonbiondo/column-enforce-mode)
 
 ## Key bindings
 - Movement
