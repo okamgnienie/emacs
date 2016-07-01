@@ -51,6 +51,7 @@
 (require 'smart-forward)
 (require 'smooth-scroll)
 (require 'column-enforce-mode)
+(require 'web-mode)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -267,7 +268,6 @@
 (defun activate-yellow-cursor ()
   (set-face-foreground 'linum-highlight-face "#FFDD33")
   (set-cursor-color "#FFDD33"))
-
 
 (defun activate-blue-cursor ()
   (set-face-foreground 'linum-highlight-face "#528BFF")
