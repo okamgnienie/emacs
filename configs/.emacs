@@ -343,7 +343,9 @@
  '(ido-only-match ((t (:foreground "#528BFF" :weight bold))))
  '(ido-subdir ((t (:foreground "#E5C07B"))))
  '(linum ((t (:stipple nil :background "#282C34" :distant-foreground "#5C6370" :foreground "#5C6370" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal))))
- '(linum-highlight-face ((t (:stipple nil :background "#2F343D" :distant-foreground "#5C6370" :foreground "#528BFF" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight bold)))))
+ '(linum-highlight-face ((t (:stipple nil :background "#2F343D" :distant-foreground "#5C6370" :foreground "#528BFF" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight bold))))
+ '(mode-line ((t (:background "#323232" :foreground "#AAAAAA"))))
+ '(mode-line-inactive ((t (:background "#444444" :foreground "#AAAAAA")))))
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
