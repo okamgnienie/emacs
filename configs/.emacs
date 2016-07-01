@@ -177,6 +177,7 @@
 
 ;; Comments:
 (global-set-key (kbd "M-;") 'comment-or-uncomment-region-or-line)
+(define-key web-mode-map (kbd "M-;") 'comment-or-uncomment-region-or-line)
 
 ;; Mark previous/next lines like this:
 (bind-key* "M-." 'mc/mark-next-like-this)
