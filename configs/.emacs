@@ -221,7 +221,7 @@
 (define-key js2-mode-map (kbd "C-c i") 'js-doc-insert-function-doc)
 
 ;; Search project files (helm):
-(global-set-key (kbd "M-h") 'helm-projectile)
+(global-set-key (kbd "C-l") 'helm-projectile)
 
 ;; Search buffers (helm):
 (global-set-key (kbd "M-l") 'helm-buffers-list)
