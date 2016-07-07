@@ -381,9 +381,7 @@
      (:propertize "%02c" face
                   ((t
                     (:foreground "#C678DD" :weight normal))))
-     " • "
-     mode-name
-     " • "
+     " • " mode-name " • "
      (:propertize mode-line-buffer-identification face
                   ((t
                     (:foreground "#61AFEF" :weight normal))))
