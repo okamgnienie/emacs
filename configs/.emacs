@@ -387,4 +387,6 @@
      (:propertize mode-line-buffer-identification face
                   ((t
                     (:foreground "#61AFEF" :weight normal))))
-     mode-line-end-spaces))))
+     mode-line-end-spaces)))
+ '(web-mode-code-indent-offset 2)
+ '(web-mode-markup-indent-offset 2))
