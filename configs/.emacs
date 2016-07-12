@@ -253,6 +253,9 @@
 ;; Goto line:
 (global-set-key (kbd "<up>") 'goto-line)
 
+;; Count lines, words and characters:
+(global-set-key (kbd "<down>") 'count-words)
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;                            ADDITIONAL FUNCTIONS                            ;;

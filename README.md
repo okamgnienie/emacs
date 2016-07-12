@@ -169,6 +169,7 @@ Use semantic text selection.
   - `Alt + ;` - comment/uncomment line/selection
   - `Ctrl + x u` - open undo-tree buffer
   - `Alt + m` - open magit status buffer
+  - `down arrow` - count lines, words and characters
 
 ## Credits
 Great thanks to Andrzej for showing me emacs, what made me immediately hooked.
