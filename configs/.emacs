@@ -250,6 +250,9 @@
 (global-set-key (kbd "M-p") 'move-text-up)
 (global-set-key (kbd "M-n") 'move-text-down)
 
+;; Goto line:
+(global-set-key (kbd "<up>") 'goto-line)
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;                            ADDITIONAL FUNCTIONS                            ;;

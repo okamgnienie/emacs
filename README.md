@@ -113,6 +113,7 @@ Use semantic text selection.
   - `Ctrl + v` - scroll up
   - `Alt + p` - move line/region up
   - `Alt + n` - move line/region down
+  - `up arrow` - jump to line with number
 
 - Selection
   - `Ctrl + space` - enter/exit text selection mode
