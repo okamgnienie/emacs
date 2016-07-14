@@ -52,6 +52,7 @@
 (require 'smooth-scroll)
 (require 'column-enforce-mode)
 (require 'web-mode)
+(require 'yaml-mode)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
