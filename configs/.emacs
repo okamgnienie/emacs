@@ -205,6 +205,11 @@
 (define-key global-map (kbd "C-c w") 'avy-goto-word-1)
 (define-key global-map (kbd "C-c c") 'avy-goto-char)
 
+;; Avy keybindings for god-mode:
+(define-key global-map (kbd "C-c C-l") 'avy-goto-line)
+(define-key global-map (kbd "C-c C-w") 'avy-goto-word-1)
+(define-key global-map (kbd "C-c C-c") 'avy-goto-char)
+
 ;; Smex keybindings:
 (global-set-key (kbd "M-x") 'smex)
 (global-set-key (kbd "M-X") 'smex-major-mode-commands)
