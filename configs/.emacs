@@ -53,6 +53,7 @@
 (require 'column-enforce-mode)
 (require 'web-mode)
 (require 'yaml-mode)
+(require 'clojure-mode)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

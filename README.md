@@ -93,6 +93,7 @@ Use semantic text selection.
 - [csv-mode](https://github.com/emacsmirror/csv-mode)
 - [column-enforce-mode](www.github.com/jordonbiondo/column-enforce-mode)
 - [yaml-mode](https://github.com/yoshiki/yaml-mode)
+- [clojure-mode](https://github.com/clojure-emacs/clojure-mode)
 
 ## Key bindings
 - Movement
