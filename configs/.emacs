@@ -369,6 +369,7 @@
  '(avy-keys
    (quote
     (97 115 100 102 103 104 106 107 108 113 119 101 114 116 121 117 105 111 112 122 120 99 118 98 110 109)))
+ '(c-basic-offset 2)
  '(global-hl-line-mode t)
  '(global-linum-mode t)
  '(js-doc-description-line " * @description
