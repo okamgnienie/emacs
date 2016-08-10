@@ -54,6 +54,7 @@
 (require 'web-mode)
 (require 'yaml-mode)
 (require 'clojure-mode)
+(require 'php-mode)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
