@@ -374,6 +374,7 @@
  '(global-linum-mode t)
  '(js-doc-description-line " * @description
 ")
+ '(js2-basic-offset 2)
  '(linum-format " %2d ")
  '(mode-line-format
    (quote
@@ -401,5 +402,7 @@
                   ((t
                     (:foreground "#61AFEF" :weight normal))))
      mode-line-end-spaces)))
+ '(size-indication-mode t)
  '(web-mode-code-indent-offset 2)
+ '(web-mode-css-indent-offset 4)
  '(web-mode-markup-indent-offset 2))

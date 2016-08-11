@@ -3,8 +3,9 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "php-mode" "php-mode.el" (22443 14540 0 0))
-;;; Generated autoloads from php-mode.el
+;;;### (autoloads nil "php-mode" "../../../../../../.emacs.d/elpa/php-mode-20160804.903/php-mode.el"
+;;;;;;  "b69c8197aefc0df15fcee55864f344d1")
+;;; Generated autoloads from ../../../../../../.emacs.d/elpa/php-mode-20160804.903/php-mode.el
 
 (let ((loads (get 'php 'custom-loads))) (if (member '"php-mode" loads) nil (put 'php 'custom-loads (cons '"php-mode" loads))))
 
@@ -26,12 +27,29 @@ Major mode for editing PHP code.
 
 ;;;***
 
-;;;### (autoloads nil nil ("php-array.el" "php-classobj.el" "php-control-structures.el"
-;;;;;;  "php-crack.el" "php-dio.el" "php-dom.el" "php-exceptions.el"
-;;;;;;  "php-exif.el" "php-ext.el" "php-filesystem.el" "php-gd.el"
-;;;;;;  "php-math.el" "php-mode-pkg.el" "php-pcre.el" "php-regex.el"
-;;;;;;  "php-simplexml.el" "php-strings.el" "php-var.el" "php-xmlparser.el"
-;;;;;;  "php-xmlreader.el") (22443 14540 128124 0))
+;;;### (autoloads nil nil ("../../../../../../.emacs.d/elpa/php-mode-20160804.903/php-array.el"
+;;;;;;  "../../../../../../.emacs.d/elpa/php-mode-20160804.903/php-classobj.el"
+;;;;;;  "../../../../../../.emacs.d/elpa/php-mode-20160804.903/php-control-structures.el"
+;;;;;;  "../../../../../../.emacs.d/elpa/php-mode-20160804.903/php-crack.el"
+;;;;;;  "../../../../../../.emacs.d/elpa/php-mode-20160804.903/php-dio.el"
+;;;;;;  "../../../../../../.emacs.d/elpa/php-mode-20160804.903/php-dom.el"
+;;;;;;  "../../../../../../.emacs.d/elpa/php-mode-20160804.903/php-exceptions.el"
+;;;;;;  "../../../../../../.emacs.d/elpa/php-mode-20160804.903/php-exif.el"
+;;;;;;  "../../../../../../.emacs.d/elpa/php-mode-20160804.903/php-ext.el"
+;;;;;;  "../../../../../../.emacs.d/elpa/php-mode-20160804.903/php-filesystem.el"
+;;;;;;  "../../../../../../.emacs.d/elpa/php-mode-20160804.903/php-gd.el"
+;;;;;;  "../../../../../../.emacs.d/elpa/php-mode-20160804.903/php-math.el"
+;;;;;;  "../../../../../../.emacs.d/elpa/php-mode-20160804.903/php-mode-autoloads.el"
+;;;;;;  "../../../../../../.emacs.d/elpa/php-mode-20160804.903/php-mode-pkg.el"
+;;;;;;  "../../../../../../.emacs.d/elpa/php-mode-20160804.903/php-mode.el"
+;;;;;;  "../../../../../../.emacs.d/elpa/php-mode-20160804.903/php-pcre.el"
+;;;;;;  "../../../../../../.emacs.d/elpa/php-mode-20160804.903/php-regex.el"
+;;;;;;  "../../../../../../.emacs.d/elpa/php-mode-20160804.903/php-simplexml.el"
+;;;;;;  "../../../../../../.emacs.d/elpa/php-mode-20160804.903/php-strings.el"
+;;;;;;  "../../../../../../.emacs.d/elpa/php-mode-20160804.903/php-var.el"
+;;;;;;  "../../../../../../.emacs.d/elpa/php-mode-20160804.903/php-xmlparser.el"
+;;;;;;  "../../../../../../.emacs.d/elpa/php-mode-20160804.903/php-xmlreader.el")
+;;;;;;  (22444 33275 809337 0))
 
 ;;;***
 

@@ -291,12 +291,12 @@
 	     ((:url . "http://elpa.gnu.org/packages/ediprolog.html")
 	      (:keywords "languages" "processes"))])
  (el-search .
-	    [(0 2 1)
+	    [(0 2 2)
 	     ((emacs
 	       (25)))
-	     "Expression based incremental search for emacs-lisp-mode" single
-	     ((:url . "http://elpa.gnu.org/packages/el-search.html")
-	      (:keywords "lisp"))])
+	     "Expression based incremental search for emacs-lisp-mode" tar
+	     ((:keywords "lisp")
+	      (:url . "http://elpa.gnu.org/packages/el-search.html"))])
  (eldoc-eval .
 	     [(0 1)
 	      nil "Enable eldoc support when minibuffer is in use." single
