@@ -94,6 +94,7 @@ Use semantic text selection.
 - [column-enforce-mode](www.github.com/jordonbiondo/column-enforce-mode)
 - [yaml-mode](https://github.com/yoshiki/yaml-mode)
 - [clojure-mode](https://github.com/clojure-emacs/clojure-mode)
+- [xkcd](https://github.com/vibhavp/emacs-xkcd)
 
 ## Key bindings
 - Movement
