@@ -100,6 +100,13 @@
 (setq js2-indent-level 2)
 (setq js2-basic-offset 2)
 
+;; Set default PHP indent:
+(add-hook 'php-mode-hook 'php-indent)
+(defun php-indent ()
+  (setq indent-tabs-mode nil
+        tab-width 2
+        c-basic-offset 2))
+
 ;; Configure backups:
 (setq backup-directory-alist `(("." . "~/.Saves")))
 (setq backup-by-copying t)
@@ -369,7 +376,6 @@
  '(avy-keys
    (quote
     (97 115 100 102 103 104 106 107 108 113 119 101 114 116 121 117 105 111 112 122 120 99 118 98 110 109)))
- '(c-basic-offset 2)
  '(global-hl-line-mode t)
  '(global-linum-mode t)
  '(js-doc-description-line " * @description
