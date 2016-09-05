@@ -6,3 +6,4 @@
 /configs/.emacs.d/.mc-lists.el
 /configs/.emacs.d/.mc-lists.elc
 **/.DS_Store
+/configs/.emacs.d/xkcd
