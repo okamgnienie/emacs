@@ -95,6 +95,7 @@ Use semantic text selection.
 - [yaml-mode](https://github.com/yoshiki/yaml-mode)
 - [clojure-mode](https://github.com/clojure-emacs/clojure-mode)
 - [xkcd](https://github.com/vibhavp/emacs-xkcd)
+- [jedi](https://github.com/tkf/emacs-jedi)
 
 ## Key bindings
 - Movement
