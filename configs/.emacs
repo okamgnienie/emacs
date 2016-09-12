@@ -55,6 +55,7 @@
 (require 'yaml-mode)
 (require 'clojure-mode)
 (require 'php-mode)
+(require 'anaconda-mode)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -124,6 +125,9 @@
 ;; Change cursor and linum color in god mode:
 (add-hook 'god-mode-enabled-hook 'activate-yellow-cursor)
 (add-hook 'god-mode-disabled-hook 'activate-blue-cursor)
+
+;; Use anaconda-mode by default for python editing:
+(add-hook 'python-mode-hook 'anaconda-mode)
 
 ;; Set font to Adobe Source Code Pro:
 ;; (add-to-list 'default-frame-alist '(font .  "Source Code Pro-13" ))

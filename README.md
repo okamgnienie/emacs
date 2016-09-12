@@ -96,6 +96,7 @@ Use semantic text selection.
 - [clojure-mode](https://github.com/clojure-emacs/clojure-mode)
 - [xkcd](https://github.com/vibhavp/emacs-xkcd)
 - [jedi](https://github.com/tkf/emacs-jedi)
+- [anaconda-mode](https://github.com/proofit404/anaconda-mode)
 
 ## Key bindings
 - Movement
