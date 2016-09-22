@@ -54,7 +54,6 @@
 (require 'web-mode)
 (require 'yaml-mode)
 (require 'clojure-mode)
-(require 'php-mode)
 (require 'anaconda-mode)
 
 
@@ -384,7 +383,7 @@
  '(global-linum-mode t)
  '(js-doc-description-line " * @description
 ")
- '(js2-basic-offset 2)
+ '(js-indent-level 2)
  '(linum-format " %2d ")
  '(mode-line-format
    (quote
@@ -412,6 +411,9 @@
                   ((t
                     (:foreground "#61AFEF" :weight normal))))
      mode-line-end-spaces)))
+ '(package-selected-packages
+   (quote
+    (yasnippet yaml-mode xkcd web-mode use-package undo-tree syntax-subword smooth-scroll smex smartparens smart-forward scss-mode redo+ php-mode nyan-mode multiple-cursors move-text markdown-mode magit less-css-mode js-doc jedi ido-ubiquitous hlinum highlight-parentheses helm-projectile god-mode csv-mode column-enforce-mode clojure-mode avy atom-one-dark-theme atom-dark-theme anaconda-mode ac-js2)))
  '(size-indication-mode t)
  '(web-mode-code-indent-offset 2)
  '(web-mode-css-indent-offset 4)
