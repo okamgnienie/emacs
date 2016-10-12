@@ -413,7 +413,7 @@
      mode-line-end-spaces)))
  '(package-selected-packages
    (quote
-    (php-mode yasnippet yaml-mode xkcd web-mode use-package undo-tree syntax-subword smooth-scroll smex smartparens smart-forward scss-mode redo+ nyan-mode multiple-cursors move-text markdown-mode magit less-css-mode js-doc jedi ido-ubiquitous hlinum highlight-parentheses helm-projectile god-mode csv-mode column-enforce-mode clojure-mode avy atom-one-dark-theme atom-dark-theme anaconda-mode ac-js2)))
+    (smart-forward expand-region php-mode yasnippet yaml-mode xkcd web-mode use-package undo-tree syntax-subword smooth-scroll smex smartparens scss-mode redo+ nyan-mode multiple-cursors move-text markdown-mode magit less-css-mode js-doc jedi ido-ubiquitous hlinum highlight-parentheses helm-projectile god-mode csv-mode column-enforce-mode clojure-mode avy atom-one-dark-theme atom-dark-theme anaconda-mode ac-js2)))
  '(size-indication-mode t)
  '(web-mode-code-indent-offset 2)
  '(web-mode-css-indent-offset 4)

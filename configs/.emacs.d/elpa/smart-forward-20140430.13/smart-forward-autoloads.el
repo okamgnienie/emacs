@@ -1,10 +1,11 @@
 ;;; smart-forward-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
+(add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil nil ("smart-forward.el") (22163 31940 790263
-;;;;;;  0))
+;;;### (autoloads nil nil ("../../../../../../.emacs.d/elpa/smart-forward-20140430.13/smart-forward-autoloads.el"
+;;;;;;  "../../../../../../.emacs.d/elpa/smart-forward-20140430.13/smart-forward.el")
+;;;;;;  (22526 9937 0 0))
 
 ;;;***
 
