@@ -135,8 +135,10 @@
 ;; Set helm to be opened in current frame:
 (setq helm-split-window-default-side 'same)
 
-;; Open JSON files with js2-mode:
-(add-to-list 'auto-mode-alist '("\\.json$" . js2-mode))
+;; Open JSON files with js-mode:
+(add-to-list 'auto-mode-alist '("\\.json$" . js-mode))
+
+;; Open JavaScript files with js2-mode:
 (add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
 
 ;; Open reac jsx files with web-mode:
