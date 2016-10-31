@@ -1,12 +1,23 @@
 #!/bin/bash
 
-dir="./configs/.emacs.d/elpa/yasnippet-*/snippets"
+# Colors
+PURPLE='\033[1;35m'
+BLUE='\033[1;34m'
+GREEN='\033[1;32m'
+RESET='\033[0m'
 
-echo -e "\nEntering directory...\n"
-cd $dir
+# Paths
+DIR="./configs/.emacs.d/elpa/yasnippet-*/snippets"
 
-echo -e "\nCleaning...\n"
-rm -rf js*
-rm -rf web-mode
+printf "\n${BLUE}| Script will remove now unnecessary snippets. ${RESET}\n"
+sleep 3
 
-echo -e "\nDone.\n"
+printf "\n${PURPLE}>_ Entering directory... ${RESET}\n"
+cd $DIR
+echo "cd `pwd`"
+
+printf "\n${PURPLE}>_ Cleaning... ${RESET}\n"
+rm -rf -v js*
+rm -rf -v web-mode
+
+printf "\n${GREEN}| Done. ${RESET}\n\n"
