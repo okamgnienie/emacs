@@ -368,6 +368,7 @@
  '(avy-lead-face-0 ((t (:foreground "#E06C75" :weight normal))))
  '(avy-lead-face-1 ((t (:foreground "#7FFF00" :weight normal))))
  '(avy-lead-face-2 ((t (:foreground "#56B6C2" :weight normal))))
+ '(helm-match ((t (:foreground "#E06C75" :weight bold))))
  '(ido-first-match ((t (:foreground "#E06C75" :weight bold))))
  '(ido-only-match ((t (:foreground "#528BFF" :weight bold))))
  '(ido-subdir ((t (:foreground "#E5C07B"))))
