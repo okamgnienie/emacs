@@ -390,7 +390,9 @@
  '(js-doc-description-line " * @desc
 ")
  '(js-indent-level 2)
- '(js2-global-externs '("module" "require" "setTimeout" "clearTimeout" "setInterval" "clearInterval" "location" "console" "JSON" "angular" "toastr" "$"))
+ '(js2-global-externs
+   (quote
+    ("module" "require" "setTimeout" "clearTimeout" "setInterval" "clearInterval" "location" "console" "JSON" "angular" "toastr" "$" "moment")))
  '(js2-highlight-level 3)
  '(linum-format " %2d ")
  '(mode-line-format
