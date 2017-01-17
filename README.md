@@ -151,6 +151,8 @@ Use semantic text selection.
   - `Ctrl + x b` - search through open files
   - `Alt + x` - open console
   - `Ctrl + x Ctrl + f` - browse files
+  - `Ctrl + r` - next
+  - `Ctrl + s` - previous
 
 - Avy
   - `Ctrl + space` - go to word (two letters)
