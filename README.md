@@ -97,6 +97,7 @@ Use semantic text selection.
 - [xkcd](https://github.com/vibhavp/emacs-xkcd)
 - [jedi](https://github.com/tkf/emacs-jedi)
 - [anaconda-mode](https://github.com/proofit404/anaconda-mode)
+- [parinfer](https://github.com/DogLooksGood/parinfer-mode)
 
 ## Key bindings
 - Movement

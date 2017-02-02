@@ -55,6 +55,7 @@
 (require 'yaml-mode)
 (require 'clojure-mode)
 (require 'anaconda-mode)
+(require 'parinfer)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -436,7 +437,7 @@
      mode-line-end-spaces)))
  '(package-selected-packages
    (quote
-    (multiple-cursors smart-forward expand-region php-mode yasnippet yaml-mode xkcd web-mode use-package undo-tree syntax-subword smooth-scroll smex smartparens scss-mode redo+ nyan-mode move-text markdown-mode magit less-css-mode js-doc jedi ido-ubiquitous hlinum highlight-parentheses helm-projectile god-mode csv-mode column-enforce-mode clojure-mode avy atom-one-dark-theme atom-dark-theme anaconda-mode ac-js2)))
+    (parinfer multiple-cursors smart-forward expand-region php-mode yasnippet yaml-mode xkcd web-mode use-package undo-tree syntax-subword smooth-scroll smex smartparens scss-mode redo+ nyan-mode move-text markdown-mode magit less-css-mode js-doc jedi ido-ubiquitous hlinum highlight-parentheses helm-projectile god-mode csv-mode column-enforce-mode clojure-mode avy atom-one-dark-theme atom-dark-theme anaconda-mode ac-js2)))
  '(size-indication-mode t)
  '(web-mode-code-indent-offset 2)
  '(web-mode-css-indent-offset 4)
