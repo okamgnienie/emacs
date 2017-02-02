@@ -406,7 +406,7 @@
  '(js-indent-level 2)
  '(js2-global-externs
    (quote
-    ("module" "require" "setTimeout" "clearTimeout" "setInterval" "clearInterval" "location" "console" "JSON" "angular" "toastr" "$" "moment")))
+    ("module" "require" "setTimeout" "clearTimeout" "setInterval" "clearInterval" "location" "console" "JSON" "angular" "toastr" "$" "moment" "_")))
  '(js2-highlight-level 3)
  '(linum-format " %2d ")
  '(mode-line-format
