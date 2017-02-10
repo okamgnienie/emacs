@@ -172,6 +172,7 @@ Use semantic text selection.
   - `Ctrl + x 2` - split screen horizontally
   - `Ctrl + x o` - move to next window
   - `Ctrl + x 0` - close window
+  - `Ctrl + x Ctrl + o` - rotate buffer windows
 
 - Other
   - `Alt + ;` - comment/uncomment line/selection

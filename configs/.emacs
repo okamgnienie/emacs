@@ -283,6 +283,9 @@
 ;; Count lines, words and characters:
 (global-set-key (kbd "<down>") 'count-words)
 
+;; Rotate window buffers (tmux like):
+(global-set-key (kbd "C-x C-o") 'rotate-window-buffers)
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;                            ADDITIONAL FUNCTIONS                            ;;
@@ -357,6 +360,20 @@
                                 (or (buffer-file-name x)
                                     (eq 'dired-mode (buffer-local-value 'major-mode x))))
                              (buffer-list)))))
+
+(defun rotate-window-buffers ()
+  (interactive)
+  (let* ((windows (window-list))
+         (buffers (mapcar #'window-buffer windows))
+         (wpoints (mapcar #'window-point windows))
+         (w (pop windows)))
+    (setq windows (append windows `(,w)))
+    (mapc (lambda(w)
+            (let ((b (pop buffers))
+                  (p (pop wpoints)))
+              (set-window-buffer w b)
+              (set-window-point w p)))
+          windows)))
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
