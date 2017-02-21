@@ -1,0 +1,1 @@
+/Users/przemyslaw/Documents/javascript-emacs/configs/.emacs.d

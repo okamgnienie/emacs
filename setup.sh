@@ -12,13 +12,19 @@ BOLD='\033[1;37m'
 SRC="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 DEST=${HOME}
 
-printf "\n${BLUE}| Script will create now symlinks for the configuration. ${RESET}\n"
+printf "\n${BLUE}| Welcome to setup script. ${RESET}\n"
 sleep 3
+
+printf "\n${PURPLE}>_ Installing npm packages required for ESLint${RESET}\n"
+npm install -g eslint babel-eslint eslint-plugin-react
 
 printf "\n${PURPLE}>_ Creating symlink for .emacs${RESET}\n"
 ln -s $SRC/configs/.emacs $DEST/.emacs
 
 printf "\n${PURPLE}>_ Creating symlink for .emacs.d${RESET}\n"
 ln -s $SRC/configs/.emacs.d $DEST/.emacs.d
+
+printf "\n${PURPLE}>_ Creating symlink for .eslintrc.js${RESET}\n"
+ln -s $SRC/configs/.eslintrc.json $DEST/.eslintrc.json
 
 printf "\n${GREEN}| Done.${RESET}\n\n"

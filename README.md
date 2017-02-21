@@ -1,6 +1,8 @@
 # javascript-emacs
 GNU Emacs configuration for JavaScript development.
 
+Node.js is required for JavaScript syntax checking.
+
 ## Features
 
 ### Avy
@@ -99,6 +101,7 @@ Use semantic text selection.
 - [anaconda-mode](https://github.com/proofit404/anaconda-mode)
 - [parinfer](https://github.com/DogLooksGood/parinfer-mode)
 - [flycheck](https://github.com/flycheck/flycheck)
+- [exec-path-from-shell](https://github.com/purcell/exec-path-from-shell)
 
 ## Key bindings
 - Movement
