@@ -98,6 +98,7 @@ Use semantic text selection.
 - [jedi](https://github.com/tkf/emacs-jedi)
 - [anaconda-mode](https://github.com/proofit404/anaconda-mode)
 - [parinfer](https://github.com/DogLooksGood/parinfer-mode)
+- [flycheck](https://github.com/flycheck/flycheck)
 
 ## Key bindings
 - Movement
