@@ -157,6 +157,49 @@
 ;; Set cursor color:
 (set-cursor-color "#528BFF")
 
+(define-fringe-bitmap 'circle-fringe-indicator
+  (vector #b00000000
+          #b00000000
+          #b00000000
+          #b00000000
+          #b00000000
+          #b00111100
+          #b01111110
+          #b01111110
+          #b01111110
+          #b01111110
+          #b00111100
+          #b00000000
+          #b00000000
+          #b00000000
+          #b00000000
+          #b00000000
+          #b00000000))
+
+(flycheck-define-error-level 'error
+  :severity 100
+  :compilation-level 2
+  :overlay-category 'flycheck-error-overlay
+  :fringe-bitmap 'circle-fringe-indicator
+  :fringe-face 'flycheck-fringe-error
+  :error-list-face 'flycheck-error-list-error)
+
+(flycheck-define-error-level 'warning
+  :severity 10
+  :compilation-level 1
+  :overlay-category 'flycheck-warning-overlay
+  :fringe-bitmap 'circle-fringe-indicator
+  :fringe-face 'flycheck-fringe-warning
+  :error-list-face 'flycheck-error-list-warning)
+
+(flycheck-define-error-level 'info
+  :severity -10
+  :compilation-level 0
+  :overlay-category 'flycheck-info-overlay
+  :fringe-bitmap 'circle-fringe-indicator
+  :fringe-face 'flycheck-fringe-info
+  :error-list-face 'flycheck-error-list-info)
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;                                  FLYCHECK                                  ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -427,6 +470,9 @@
  '(avy-lead-face-0 ((t (:foreground "#E06C75" :weight normal))))
  '(avy-lead-face-1 ((t (:foreground "#7FFF00" :weight normal))))
  '(avy-lead-face-2 ((t (:foreground "#56B6C2" :weight normal))))
+ '(flycheck-error ((t (:underline "Red1"))))
+ '(flycheck-error-list-error ((t (:inherit error))))
+ '(flycheck-warning ((t (:underline "DarkOrange"))))
  '(helm-match ((t (:foreground "#E06C75" :weight bold))))
  '(ido-first-match ((t (:foreground "#E06C75" :weight bold))))
  '(ido-only-match ((t (:foreground "#528BFF" :weight bold))))
@@ -444,6 +490,8 @@
  '(avy-keys
    (quote
     (97 115 100 102 103 104 106 107 108 113 119 101 114 116 121 117 105 111 112 122 120 99 118 98 110 109)))
+ '(flycheck-temp-prefix ".flycheck")
+ '(global-flycheck-mode t)
  '(global-hl-line-mode t)
  '(global-linum-mode t)
  '(js-doc-description-line " * @desc
