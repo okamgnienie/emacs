@@ -477,6 +477,7 @@
  '(ido-first-match ((t (:foreground "#E06C75" :weight bold))))
  '(ido-only-match ((t (:foreground "#528BFF" :weight bold))))
  '(ido-subdir ((t (:foreground "#E5C07B"))))
+ '(js2-error ((t (:underline "Red1"))))
  '(linum ((t (:stipple nil :background "#282C34" :distant-foreground "#5C6370" :foreground "#5C6370" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal))))
  '(linum-highlight-face ((t (:stipple nil :background "#2F343D" :distant-foreground "#5C6370" :foreground "#528BFF" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight bold))))
  '(mode-line ((t (:background "#323232" :foreground "#AAAAAA"))))
@@ -501,6 +502,8 @@
    (quote
     ("module" "require" "setTimeout" "clearTimeout" "setInterval" "clearInterval" "location" "console" "JSON" "angular" "toastr" "$" "moment" "_")))
  '(js2-highlight-level 3)
+ '(js2-mode-show-parse-errors t)
+ '(js2-mode-show-strict-warnings t)
  '(linum-format " %2d ")
  '(mode-line-format
    (quote
