@@ -24,7 +24,7 @@ ln -s $SRC/configs/.emacs $DEST/.emacs
 printf "\n${PURPLE}>_ Creating symlink for .emacs.d${RESET}\n"
 ln -s $SRC/configs/.emacs.d $DEST/.emacs.d
 
-printf "\n${PURPLE}>_ Creating symlink for .eslintrc.js${RESET}\n"
+printf "\n${PURPLE}>_ Creating symlink for .eslintrc.json${RESET}\n"
 ln -s $SRC/configs/.eslintrc.json $DEST/.eslintrc.json
 
 printf "\n${GREEN}| Done.${RESET}\n\n"
