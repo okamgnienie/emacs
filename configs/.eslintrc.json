@@ -1,5 +1,6 @@
 {
   "parser": "babel-eslint",
+  "extends": "eslint:recommended",
   "plugins": [ "react" ],
   "env": {
     "browser": true,
@@ -20,15 +21,22 @@
     "jsx": true
   },
   "rules": {
+    "no-unused-vars": "warn",
     "semi": "warn",
-    "consistent-return": [0],
-    "key-spacing": [0],
+    "no-console": "warn",
+    "space-before-function-paren": ["warn", { "named": "never",
+                                              "asyncArrow": "ignore" }],
+    "prefer-arrow-callback": "warn",
+    "max-len": ["warn", { "code": 80,
+                          "ignoreTemplateLiterals": true,
+                          "ignoreStrings": true }],
     "quotes": ["warn", "single"],
-    "new-cap": [0],
-    "no-multi-spaces": [0],
-    "no-shadow": [0],
-    "no-unused-vars": [1],
+    "no-multi-spaces": "warn",
+    "eqeqeq": "error",
     "no-use-before-define": [2, "nofunc"],
+    "key-spacing": ["warn", { "beforeColon": false,
+                              "afterColon": true,
+                              "mode": "strict" }],
     "react/jsx-no-undef": 1,
     "react/jsx-uses-react": 1,
     "react/jsx-uses-vars": 1
