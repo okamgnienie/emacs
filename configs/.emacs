@@ -243,7 +243,7 @@
 (ido-mode t)
 
 ;; Run projectile on startup:
-(projectile-global-mode)
+(projectile-mode)
 
 ;; Run smex:
 (smex-initialize)
