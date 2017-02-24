@@ -502,8 +502,8 @@
    (quote
     ("module" "require" "setTimeout" "clearTimeout" "setInterval" "clearInterval" "location" "console" "JSON" "angular" "toastr" "$" "moment" "_")))
  '(js2-highlight-level 3)
- '(js2-mode-show-parse-errors t)
- '(js2-mode-show-strict-warnings t)
+ '(js2-mode-show-parse-errors nil)
+ '(js2-mode-show-strict-warnings nil)
  '(linum-format " %2d ")
  '(mode-line-format
    (quote
