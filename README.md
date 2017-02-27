@@ -3,6 +3,8 @@ GNU Emacs configuration for JavaScript development.
 
 Node.js is required for JavaScript syntax checking.
 
+Pylint is required for python syntax checking.
+
 ## Features
 
 ### Avy

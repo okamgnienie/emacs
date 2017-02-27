@@ -27,4 +27,7 @@ ln -s $SRC/configs/.emacs.d $DEST/.emacs.d
 printf "\n${PURPLE}>_ Creating symlink for .eslintrc.json${RESET}\n"
 ln -s $SRC/configs/.eslintrc.json $DEST/.eslintrc.json
 
+printf "\n${PURPLE}>_ Creating symlink for .pylintrc${RESET}\n"
+ln -s $SRC/configs/.pylintrc $DEST/.pylintrc
+
 printf "\n${GREEN}| Done.${RESET}\n\n"
