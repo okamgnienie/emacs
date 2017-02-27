@@ -472,6 +472,7 @@
  '(avy-lead-face-2 ((t (:foreground "#56B6C2" :weight normal))))
  '(flycheck-error ((t (:underline "#E06C75"))))
  '(flycheck-error-list-error ((t (:inherit error))))
+ '(flycheck-info ((t (:underline "#528BFF"))))
  '(flycheck-warning ((t (:underline "#E5C07B"))))
  '(helm-match ((t (:foreground "#E06C75" :weight bold))))
  '(ido-first-match ((t (:foreground "#E06C75" :weight bold))))
@@ -533,7 +534,7 @@
      mode-line-end-spaces)))
  '(package-selected-packages
    (quote
-    (exec-path-from-shell flycheck parinfer multiple-cursors smart-forward expand-region php-mode yasnippet yaml-mode xkcd web-mode use-package undo-tree syntax-subword smooth-scroll smex smartparens scss-mode redo+ nyan-mode move-text markdown-mode magit less-css-mode js-doc jedi ido-ubiquitous hlinum highlight-parentheses helm-projectile god-mode csv-mode column-enforce-mode clojure-mode avy atom-one-dark-theme atom-dark-theme anaconda-mode ac-js2)))
+    (helm-flycheck exec-path-from-shell flycheck parinfer multiple-cursors smart-forward expand-region php-mode yasnippet yaml-mode xkcd web-mode use-package undo-tree syntax-subword smooth-scroll smex smartparens scss-mode redo+ nyan-mode move-text markdown-mode magit less-css-mode js-doc jedi ido-ubiquitous hlinum highlight-parentheses helm-projectile god-mode csv-mode column-enforce-mode clojure-mode avy atom-one-dark-theme atom-dark-theme anaconda-mode ac-js2)))
  '(size-indication-mode t)
  '(web-mode-code-indent-offset 2)
  '(web-mode-css-indent-offset 4)
