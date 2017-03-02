@@ -157,7 +157,7 @@
 ;; Set cursor color:
 (set-cursor-color "#528BFF")
 
-(define-fringe-bitmap 'circle-fringe-indicator
+(define-fringe-bitmap 'flycheck-fringe-indicator
   (vector #b00111000
           #b00111000
           #b00111000
@@ -180,7 +180,7 @@
   :severity 100
   :compilation-level 2
   :overlay-category 'flycheck-error-overlay
-  :fringe-bitmap 'circle-fringe-indicator
+  :fringe-bitmap 'flycheck-fringe-indicator
   :fringe-face 'flycheck-fringe-error
   :error-list-face 'flycheck-error-list-error)
 
@@ -188,7 +188,7 @@
   :severity 10
   :compilation-level 1
   :overlay-category 'flycheck-warning-overlay
-  :fringe-bitmap 'circle-fringe-indicator
+  :fringe-bitmap 'flycheck-fringe-indicator
   :fringe-face 'flycheck-fringe-warning
   :error-list-face 'flycheck-error-list-warning)
 
@@ -196,7 +196,7 @@
   :severity -10
   :compilation-level 0
   :overlay-category 'flycheck-info-overlay
-  :fringe-bitmap 'circle-fringe-indicator
+  :fringe-bitmap 'flycheck-fringe-indicator
   :fringe-face 'flycheck-fringe-info
   :error-list-face 'flycheck-error-list-info)
 
