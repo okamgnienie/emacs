@@ -19,5 +19,6 @@ echo "cd `pwd`"
 printf "\n${PURPLE}>_ Cleaning... ${RESET}\n"
 rm -rf -v js*
 rm -rf -v web-mode
+rm -v prog-mode/todo
 
 printf "\n${GREEN}| Done. ${RESET}\n\n"
