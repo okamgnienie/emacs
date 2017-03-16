@@ -6,6 +6,7 @@
     "es6": true,
     "node": true
   },
+  "plugins": [ "react" ],
   "ecmaFeatures": {
     "arrowFunctions": true,
     "blockBindings": true,
@@ -45,6 +46,9 @@
     "no-use-before-define": [2, "nofunc"],
     "key-spacing": ["warn", { "beforeColon": false,
                               "afterColon": true,
-                              "mode": "strict" }]
+                              "mode": "strict" }],
+    "react/jsx-no-undef": 1,
+    "react/jsx-uses-react": 1,
+    "react/jsx-uses-vars": 1
   }
 }
