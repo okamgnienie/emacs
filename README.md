@@ -104,6 +104,7 @@ Use semantic text selection.
 - [parinfer](https://github.com/DogLooksGood/parinfer-mode)
 - [flycheck](https://github.com/flycheck/flycheck)
 - [exec-path-from-shell](https://github.com/purcell/exec-path-from-shell)
+- [json-mode](https://github.com/joshwnj/json-mode)
 
 ## Key bindings
 - Movement

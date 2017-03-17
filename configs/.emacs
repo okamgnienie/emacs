@@ -57,6 +57,7 @@
 (require 'anaconda-mode)
 (require 'parinfer)
 (require 'flycheck)
+(require 'json-mode)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -136,9 +137,6 @@
 
 ;; Set helm to be opened in current frame:
 (setq helm-split-window-default-side 'same)
-
-;; Open JSON files with js-mode:
-(add-to-list 'auto-mode-alist '("\\.json$" . js-mode))
 
 ;; Open JavaScript files with js2-mode:
 (add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
@@ -534,7 +532,7 @@
      mode-line-end-spaces)))
  '(package-selected-packages
    (quote
-    (helm-flycheck exec-path-from-shell flycheck parinfer multiple-cursors smart-forward expand-region php-mode yasnippet yaml-mode xkcd web-mode use-package undo-tree syntax-subword smooth-scroll smex smartparens scss-mode redo+ nyan-mode move-text markdown-mode magit less-css-mode js-doc jedi ido-ubiquitous hlinum highlight-parentheses helm-projectile god-mode csv-mode column-enforce-mode clojure-mode avy atom-one-dark-theme atom-dark-theme anaconda-mode ac-js2)))
+    (json-mode helm-flycheck exec-path-from-shell flycheck parinfer multiple-cursors smart-forward expand-region php-mode yasnippet yaml-mode xkcd web-mode use-package undo-tree syntax-subword smooth-scroll smex smartparens scss-mode redo+ nyan-mode move-text markdown-mode magit less-css-mode js-doc jedi ido-ubiquitous hlinum highlight-parentheses helm-projectile god-mode csv-mode column-enforce-mode clojure-mode avy atom-one-dark-theme atom-dark-theme anaconda-mode ac-js2)))
  '(size-indication-mode t)
  '(web-mode-code-indent-offset 2)
  '(web-mode-css-indent-offset 4)
