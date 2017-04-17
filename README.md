@@ -105,6 +105,7 @@ Use semantic text selection.
 - [flycheck](https://github.com/flycheck/flycheck)
 - [exec-path-from-shell](https://github.com/purcell/exec-path-from-shell)
 - [json-mode](https://github.com/joshwnj/json-mode)
+- [coffee-mode](https://github.com/defunkt/coffee-mode)
 
 ## Key bindings
 - Movement
