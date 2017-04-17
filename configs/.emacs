@@ -104,6 +104,9 @@
 (setq js2-indent-level 2)
 (setq js2-basic-offset 2)
 
+;; Set CoffeeScript indent:
+(custom-set-variables '(coffee-tab-width 2))
+
 ;; Set default PHP indent:
 (add-hook 'php-mode-hook 'php-indent)
 (defun php-indent ()
