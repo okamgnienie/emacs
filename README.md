@@ -182,6 +182,11 @@ Use semantic text selection.
   - `Ctrl + x 0` - close window
   - `Ctrl + x Ctrl + o` - rotate buffer windows
 
+- Helm buffer list
+  - `Alt + l` - open list
+  - `Ctrl + Space` - mark buffers on the list
+  - `Alt + Shift + d` - kill marked buffers and close Helm
+
 - Other
   - `Alt + ;` - comment/uncomment line/selection
   - `Ctrl + x u` - open undo-tree buffer
