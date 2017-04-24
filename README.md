@@ -1,4 +1,7 @@
 # javascript-emacs
+
+![overview](images/overview.png)
+
 GNU Emacs configuration for JavaScript development.
 
 Node.js is required for JavaScript syntax checking.
