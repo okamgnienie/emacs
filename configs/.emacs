@@ -289,6 +289,9 @@
 ;; Selecting text region:
 (global-set-key (kbd "M-s") 'er/expand-region)
 
+;; Fix the expand region causing mark mode problems:
+(setq shift-select-mode nil)
+
 ;; Use Ctrl+n and Ctrl+p to select item from the autocomplete list:
 (define-key ac-complete-mode-map "\C-n" 'ac-next)
 (define-key ac-complete-mode-map "\C-p" 'ac-previous)
