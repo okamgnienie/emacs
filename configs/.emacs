@@ -36,7 +36,6 @@
 (require 'auto-complete)
 (require 'multiple-cursors)
 (require 'magit)
-(require 'highlight-parentheses)
 (require 'nyan-mode)
 (require 'hlinum)
 (require 'syntax-subword)
@@ -105,7 +104,64 @@
 (setq js2-basic-offset 2)
 
 ;; Set CoffeeScript indent:
-(custom-set-variables '(coffee-tab-width 2))
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(avy-background t)
+ '(avy-keys
+   (quote
+    (97 115 100 102 103 104 106 107 108 113 119 101 114 116 121 117 105 111 112 122 120 99 118 98 110 109)))
+ '(coffee-tab-width 2)
+ '(flycheck-temp-prefix ".flycheck")
+ '(global-flycheck-mode t)
+ '(global-hl-line-mode t)
+ '(global-linum-mode t)
+ '(js-doc-description-line " * @desc
+")
+ '(js-indent-level 2)
+ '(js2-global-externs
+   (quote
+    ("module" "require" "setTimeout" "clearTimeout" "setInterval" "clearInterval" "location" "console" "JSON" "angular" "toastr" "$" "moment" "_")))
+ '(js2-highlight-level 3)
+ '(js2-mode-show-parse-errors nil)
+ '(js2-mode-show-strict-warnings nil)
+ '(linum-format " %2d ")
+ '(mode-line-format
+   (quote
+    ("%e "
+     (:eval
+      (cond
+       ((buffer-modified-p)
+        (propertize "✖ modified"
+                    (quote face)
+                    (quote error)))
+       (t
+        (propertize "✔ saved"
+                    (quote face)
+                    (quote success)))))
+     " • "
+     (:propertize "%02l" face
+                  ((t
+                    (:foreground "#C678DD" :weight normal))))
+     ","
+     (:propertize "%02c" face
+                  ((t
+                    (:foreground "#C678DD" :weight normal))))
+     " • " mode-name " • "
+     (:propertize mode-line-buffer-identification face
+                  ((t
+                    (:foreground "#61AFEF" :weight normal))))
+     mode-line-end-spaces)))
+ '(package-selected-packages
+   (quote
+    (coffee-mode json-mode helm-flycheck exec-path-from-shell flycheck parinfer multiple-cursors smart-forward expand-region php-mode yasnippet yaml-mode xkcd web-mode use-package undo-tree syntax-subword smooth-scroll smex smartparens scss-mode redo+ nyan-mode move-text markdown-mode magit less-css-mode js-doc jedi ido-ubiquitous hlinum helm-projectile god-mode csv-mode column-enforce-mode clojure-mode avy atom-one-dark-theme atom-dark-theme anaconda-mode ac-js2)))
+ '(show-smartparens-global-mode t)
+ '(size-indication-mode t)
+ '(web-mode-code-indent-offset 2)
+ '(web-mode-css-indent-offset 4)
+ '(web-mode-markup-indent-offset 2))
 
 ;; Set default PHP indent:
 (add-hook 'php-mode-hook 'php-indent)
@@ -233,10 +289,6 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;                                   AUTORUN                                  ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-;; Brackets related config:
-(smartparens-global-mode)
-(global-highlight-parentheses-mode)
 
 ;; Automatically activate autocomplete:
 (ac-config-default)
@@ -487,62 +539,9 @@
  '(linum ((t (:stipple nil :background "#282C34" :distant-foreground "#5C6370" :foreground "#5C6370" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal))))
  '(linum-highlight-face ((t (:stipple nil :background "#2F343D" :distant-foreground "#5C6370" :foreground "#528BFF" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight bold))))
  '(mode-line ((t (:background "#323232" :foreground "#AAAAAA"))))
- '(mode-line-inactive ((t (:background "#444444" :foreground "#AAAAAA")))))
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(avy-background t)
- '(avy-keys
-   (quote
-    (97 115 100 102 103 104 106 107 108 113 119 101 114 116 121 117 105 111 112 122 120 99 118 98 110 109)))
- '(flycheck-temp-prefix ".flycheck")
- '(global-flycheck-mode t)
- '(global-hl-line-mode t)
- '(global-linum-mode t)
- '(js-doc-description-line " * @desc
-")
- '(js-indent-level 2)
- '(js2-global-externs
-   (quote
-    ("module" "require" "setTimeout" "clearTimeout" "setInterval" "clearInterval" "location" "console" "JSON" "angular" "toastr" "$" "moment" "_")))
- '(js2-highlight-level 3)
- '(js2-mode-show-parse-errors nil)
- '(js2-mode-show-strict-warnings nil)
- '(linum-format " %2d ")
- '(mode-line-format
-   (quote
-    ("%e "
-     (:eval
-      (cond
-       ((buffer-modified-p)
-        (propertize "✖ modified"
-                    (quote face)
-                    (quote error)))
-       (t
-        (propertize "✔ saved"
-                    (quote face)
-                    (quote success)))))
-     " • "
-     (:propertize "%02l" face
-                  ((t
-                    (:foreground "#C678DD" :weight normal))))
-     ","
-     (:propertize "%02c" face
-                  ((t
-                    (:foreground "#C678DD" :weight normal))))
-     " • " mode-name " • "
-     (:propertize mode-line-buffer-identification face
-                  ((t
-                    (:foreground "#61AFEF" :weight normal))))
-     mode-line-end-spaces)))
- '(package-selected-packages
-   (quote
-    (coffee-mode json-mode helm-flycheck exec-path-from-shell flycheck parinfer multiple-cursors smart-forward expand-region php-mode yasnippet yaml-mode xkcd web-mode use-package undo-tree syntax-subword smooth-scroll smex smartparens scss-mode redo+ nyan-mode move-text markdown-mode magit less-css-mode js-doc jedi ido-ubiquitous hlinum highlight-parentheses helm-projectile god-mode csv-mode column-enforce-mode clojure-mode avy atom-one-dark-theme atom-dark-theme anaconda-mode ac-js2)))
- '(size-indication-mode t)
- '(web-mode-code-indent-offset 2)
- '(web-mode-css-indent-offset 4)
- '(web-mode-markup-indent-offset 2))
+ '(mode-line-inactive ((t (:background "#444444" :foreground "#AAAAAA"))))
+ '(sp-show-pair-match-face ((t (:foreground "#528BFF" :weight normal))))
+ '(sp-show-pair-mismatch-face ((t (:foreground "#E06C75" :weight normal)))))
+
 (put 'upcase-region 'disabled nil)
 (put 'downcase-region 'disabled nil)

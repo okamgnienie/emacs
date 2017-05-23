@@ -79,7 +79,6 @@ Use semantic text selection.
 - [auto-complete](https://github.com/auto-complete/auto-complete)
 - [multiple-cursors](https://github.com/magnars/multiple-cursors.el)
 - [magit](https://github.com/magit/magit)
-- [highlight-parentheses](https://github.com/tsdh/highlight-parentheses.el)
 - [yasnippet](http://github.com/capitaomorte/yasnippet)
 - [nyan-mode](https://github.com/TeMPOraL/nyan-mode/)
 - [hlinum](https://github.com/tom-tan/hlinum-mode/)
