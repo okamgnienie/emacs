@@ -290,6 +290,9 @@
 ;;                                   AUTORUN                                  ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+;; Parentheses related config:
+(smartparens-global-mode)
+
 ;; Automatically activate autocomplete:
 (ac-config-default)
 
