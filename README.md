@@ -1,8 +1,8 @@
-# javascript-emacs
+# Emacs
 
 ![overview](images/overview.png)
 
-GNU Emacs configuration for JavaScript development.
+My personal Emacs configuration used mostly for JavaScript development.
 
 Node.js is required for JavaScript syntax checking.
 
