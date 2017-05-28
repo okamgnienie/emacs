@@ -401,8 +401,8 @@
 (global-set-key (kbd "M-m") 'magit-status)
 
 ;; Bind better scrolling functions:
-(global-set-key (kbd "M-v") 'scroll-up-one-fifth)
-(global-set-key (kbd "C-v") 'scroll-down-one-fifth)
+(global-set-key (kbd "C-v") 'scroll-up-one-fifth)
+(global-set-key (kbd "M-v") 'scroll-down-one-fifth)
 
 ;; Move region up/down:
 (global-set-key (kbd "M-p") 'move-text-up)

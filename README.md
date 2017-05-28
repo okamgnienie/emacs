@@ -125,8 +125,8 @@ Use semantic text selection.
   - `Alt + down arrow` - move down (semantic)
   - `Alt + <` - move to beginning of the file
   - `Alt + >` - move to ending of the file
-  - `Alt + v` - scroll down
-  - `Ctrl + v` - scroll up
+  - `Ctrl + v` - scroll down
+  - `Alt + v` - scroll up
   - `Alt + p` - move line/region up
   - `Alt + n` - move line/region down
   - `up arrow` - jump to line with number
