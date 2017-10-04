@@ -163,6 +163,7 @@
  '(size-indication-mode t)
  '(web-mode-code-indent-offset 2)
  '(web-mode-css-indent-offset 4)
+ '(web-mode-enable-current-element-highlight t)
  '(web-mode-markup-indent-offset 2))
 
 ;; Set default PHP indent:
@@ -546,7 +547,8 @@
  '(mode-line ((t (:background "#323232" :foreground "#AAAAAA"))))
  '(mode-line-inactive ((t (:background "#444444" :foreground "#AAAAAA"))))
  '(sp-show-pair-match-face ((t (:foreground "#528BFF" :weight normal))))
- '(sp-show-pair-mismatch-face ((t (:foreground "#E06C75" :weight normal)))))
+ '(sp-show-pair-mismatch-face ((t (:foreground "#E06C75" :weight normal))))
+ '(web-mode-current-element-highlight-face ((t (:inherit web-mode-variable-name-face)))))
 
 (put 'upcase-region 'disabled nil)
 (put 'downcase-region 'disabled nil)
