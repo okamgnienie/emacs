@@ -7,18 +7,6 @@
     "node": true
   },
   "plugins": [ "react" ],
-  "ecmaFeatures": {
-    "arrowFunctions": true,
-    "blockBindings": true,
-    "classes": true,
-    "defaultParams": true,
-    "destructuring": true,
-    "forOf": true,
-    "generators": true,
-    "modules": true,
-    "spread": true,
-    "templateStrings": true
-  },
   "rules": {
     "require-jsdoc": ["warn", {
       "require": {
