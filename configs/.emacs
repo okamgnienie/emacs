@@ -1,13 +1,6 @@
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;                RECOMPILE DIRECTORY AND ALL FILES IF NECESSARY              ;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-(byte-recompile-directory (expand-file-name "~/.emacs.d") 0)
-
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;                               PACKAGES SETTINGS                            ;;
+;;                     PACKAGES SETTINGS AND AUTOINSTALL                      ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (when (>= emacs-major-version 24)
@@ -18,47 +11,59 @@
    t)
   (package-initialize))
 
+(defun ensure-package-installed (&rest packages)
+  "Ensure package is installed and if so, require it."
+  (mapcar
+   (lambda (package)
+     (if (package-installed-p package)
+       (require package)
+       (package-install package)))
+   packages))
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;                                 REQUIREMENTS                               ;;
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Make sure to have downloaded archive description,
+;; or use package-archive-contents
+(or (file-exists-p package-user-dir)
+    (package-refresh-contents))
 
-(require 'redo+)
-(require 'expand-region)
-(require 'smex)
-(require 'ido)
-(require 'yasnippet)
-(require 'js-doc)
-(require 'js2-mode)
-(require 'ac-js2)
-(require 'projectile)
-(require 'smartparens)
-(require 'auto-complete)
-(require 'multiple-cursors)
-(require 'magit)
-(require 'nyan-mode)
-(require 'hlinum)
-(require 'syntax-subword)
-(require 'less-css-mode)
-(require 'undo-tree)
-(require 'helm)
-(require 'scss-mode)
-(require 'god-mode)
-(require 'use-package)
-(require 'avy)
-(require 'markdown-mode)
-(require 'smart-forward)
-(require 'smooth-scroll)
-(require 'column-enforce-mode)
-(require 'web-mode)
-(require 'yaml-mode)
-(require 'clojure-mode)
-(require 'anaconda-mode)
-(require 'parinfer)
-(require 'flycheck)
-(require 'json-mode)
-(require 'coffee-mode)
-(require 'ztree)
+(ensure-package-installed 'redo+
+                          'expand-region
+                          'smex
+                          'ido
+                          'yasnippet
+                          'js-doc
+                          'js2-mode
+                          'ac-js2
+                          'projectile
+                          'smartparens
+                          'auto-complete
+                          'multiple-cursors
+                          'magit
+                          'nyan-mode
+                          'hlinum
+                          'syntax-subword
+                          'less-css-mode
+                          'undo-tree
+                          'helm
+                          'scss-mode
+                          'god-mode
+                          'use-package
+                          'avy
+                          'markdown-mode
+                          'smart-forward
+                          'smooth-scroll
+                          'column-enforce-mode
+                          'web-mode
+                          'yaml-mode
+                          'clojure-mode
+                          'anaconda-mode
+                          'parinfer
+                          'flycheck
+                          'json-mode
+                          'coffee-mode
+                          'ztree)
+
+;; activate installed packages
+(package-initialize)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
