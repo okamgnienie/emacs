@@ -23,6 +23,7 @@
     "keyword-spacing": ["warn", { "before": true,
                                   "after": true }],
     "space-before-function-paren": ["warn", { "named": "never",
+                                              "anonymous": "never",
                                               "asyncArrow": "ignore" }],
     "prefer-arrow-callback": "warn",
     "max-len": ["warn", { "code": 80,
