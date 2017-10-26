@@ -50,6 +50,7 @@ Manage your git repositories directly in emacs.
 ![magit](images/magit.gif)
 - `Alt + m` - open magit
 - `h` - open help and show key bindings (in magit)
+- `r w` then select commit and press `C-c C-c` to modify the commit message (in magit)
 
 ### Yanking
 Copy & paste multiple strings.
