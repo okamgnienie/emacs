@@ -75,6 +75,9 @@
 ;;                                GENERAL CONFIG                              ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+;; Remove all the content from the window title:
+(setq frame-title-format "")
+
 ;; Load theme:
 (load-theme 'atom-one-dark t)
 
