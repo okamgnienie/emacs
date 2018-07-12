@@ -7,4 +7,4 @@
 /configs/.emacs.d/.mc-lists.elc
 **/.DS_Store
 /configs/.emacs.d/xkcd
-configs/.emacs.d/elpa/archives/*/archive-contents
+configs/.emacs.d/elpa

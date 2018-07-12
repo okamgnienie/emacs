@@ -110,6 +110,9 @@ Use semantic text selection.
 - [json-mode](https://github.com/joshwnj/json-mode)
 - [coffee-mode](https://github.com/defunkt/coffee-mode)
 - [ztree](https://github.com/fourier/ztree)
+- [typescript-mode](https://github.com/ananthakumaran/typescript.el)
+- [ng2-mode](https://github.com/AdamNiederer/ng2-mode)
+- [tide](https://github.com/ananthakumaran/tide)
 
 ## Key bindings
 - Movement
