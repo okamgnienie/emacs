@@ -20,12 +20,17 @@
        (package-install package)))
    packages))
 
+;; Load local packages
+(add-to-list 'load-path
+             "~/.emacs.d/elisp")
+
 ;; Make sure to have downloaded archive description,
 ;; or use package-archive-contents
 (or (file-exists-p package-user-dir)
     (package-refresh-contents))
 
-(ensure-package-installed 'redo+
+(ensure-package-installed 'atom-one-dark-theme
+                          'redo+
                           'expand-region
                           'smex
                           'ido
@@ -99,7 +104,7 @@
 
 ;; Yasnippet config:
 (add-to-list 'load-path
-              "~/.emacs.d/plugins/yasnippet")
+             "~/.emacs.d/plugins/yasnippet")
 (yas-global-mode 1)
 
 ;; Set tab indent:
