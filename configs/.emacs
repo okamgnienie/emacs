@@ -229,6 +229,12 @@
 ;; Open styles and templates with web-mode:
 (add-to-list 'auto-mode-alist '("\\.html\\'" . web-mode))
 
+;; Open Angular component templates using ng2-mode:
+(add-to-list 'auto-mode-alist '("\\.component.html\\'" . ng2-mode))
+
+;; Open Angular component scripts using ng2-mode:
+(add-to-list 'auto-mode-alist '("\\.component.ts\\'" . ng2-mode))
+
 ;; Open CSV files with csv-mode:
 (add-to-list 'auto-mode-alist '("\\.[Cc][Ss][Vv]\\'" . csv-mode))
 (autoload 'csv-mode "csv-mode"
