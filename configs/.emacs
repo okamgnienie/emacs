@@ -180,6 +180,7 @@
     (tide ng2-mode typescript-mode ztree coffee-mode json-mode helm-flycheck exec-path-from-shell flycheck parinfer multiple-cursors smart-forward expand-region php-mode yasnippet yaml-mode xkcd web-mode use-package undo-tree syntax-subword smooth-scroll smex smartparens scss-mode redo+ nyan-mode move-text markdown-mode magit less-css-mode js-doc jedi ido-ubiquitous hlinum helm-projectile god-mode csv-mode column-enforce-mode clojure-mode avy atom-one-dark-theme atom-dark-theme anaconda-mode ac-js2)))
  '(show-smartparens-global-mode t)
  '(size-indication-mode t)
+ '(tab-width 2)
  '(web-mode-code-indent-offset 2)
  '(web-mode-css-indent-offset 4)
  '(web-mode-enable-current-element-highlight t)
