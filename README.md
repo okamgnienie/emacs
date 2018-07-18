@@ -113,6 +113,7 @@ Use semantic text selection.
 - [typescript-mode](https://github.com/ananthakumaran/typescript.el)
 - [ng2-mode](https://github.com/AdamNiederer/ng2-mode)
 - [tide](https://github.com/ananthakumaran/tide)
+- [company](http://company-mode.github.io/)
 
 ## Key bindings
 - Movement
