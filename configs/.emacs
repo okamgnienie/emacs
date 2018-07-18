@@ -235,7 +235,10 @@
 (add-to-list 'auto-mode-alist '("\\.component.html\\'" . ng2-mode))
 
 ;; Open Angular component scripts using ng2-mode:
-(add-to-list 'auto-mode-alist '("\\.component.ts\\'" . ng2-mode))
+(setq auto-mode-alist
+      (append '(("\\.component.ts\\'" . ng2-mode)
+                ("\\.container.ts\\'" . ng2-mode))
+              auto-mode-alist))
 
 ;; Open CSV files with csv-mode:
 (add-to-list 'auto-mode-alist '("\\.[Cc][Ss][Vv]\\'" . csv-mode))
