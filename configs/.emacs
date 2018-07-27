@@ -237,7 +237,11 @@
 ;; Open Angular component scripts using ng2-mode:
 (setq auto-mode-alist
       (append '(("\\.component.ts\\'" . ng2-mode)
-                ("\\.container.ts\\'" . ng2-mode))
+                ("\\.container.ts\\'" . ng2-mode)
+                ("\\.effect.ts\\'" . ng2-mode)
+                ("\\.effects.ts\\'" . ng2-mode)
+                ("\\.service.ts\\'" . ng2-mode)
+                ("\\.module.ts\\'" . ng2-mode))
               auto-mode-alist))
 
 ;; Open CSV files with csv-mode:
