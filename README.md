@@ -195,6 +195,11 @@ Use semantic text selection.
   - `Ctrl + Space` - mark buffers on the list
   - `Alt + Shift + d` - kill marked buffers and close Helm
 
+- TypeScript/Angular
+  - `Ctrl + c Ctrl + c` - open component counterpart
+  - `Ctrl + c j b` - jump to html binding (inside a template)
+  - `Ctrl + c j d` - jump to definition (inside TypeScript file)
+
 - Other
   - `Alt + ;` - comment/uncomment line/selection
   - `Ctrl + x u` - open undo-tree buffer
