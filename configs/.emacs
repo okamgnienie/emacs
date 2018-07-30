@@ -414,15 +414,14 @@
 (define-key ac-complete-mode-map "\C-p" 'ac-previous)
 
 ;; Avy keybindings:
-(define-key global-map (kbd "C-c SPC") 'avy-goto-char-2)
-(define-key global-map (kbd "C-c l") 'avy-goto-line)
-(define-key global-map (kbd "C-c w") 'avy-goto-word-1)
+(define-key global-map (kbd "C-c SPC") 'avy-goto-word-1)
 (define-key global-map (kbd "C-c c") 'avy-goto-char)
+(define-key global-map (kbd "C-c l") 'avy-goto-line)
 
 ;; Avy keybindings for god-mode:
-(define-key global-map (kbd "C-c C-l") 'avy-goto-line)
-(define-key global-map (kbd "C-c C-w") 'avy-goto-word-1)
+(define-key global-map (kbd "C-c C-SPC") 'avy-goto-word-1)
 (define-key global-map (kbd "C-c C-c") 'avy-goto-char)
+(define-key global-map (kbd "C-c C-l") 'avy-goto-line)
 
 ;; Smex keybindings:
 (global-set-key (kbd "M-x") 'smex)

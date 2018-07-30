@@ -15,8 +15,8 @@ Move your cursor easily around whole screen.
 After activating desired mode, insert letter(s) to which you want to jump and press highlighted key(s) to proceed.
 ![avy](images/avy.gif)
 - `Ctrl + l` - go to line
-- `Ctrl + w` - go to word (one letter)
-- `Ctrl + space` - go to word (two letters)
+- `Ctrl + c` - go to character (one letter)
+- `Ctrl + space` - go to word (one letter)
 
 ### Multiple cursors
 Use more than one cursor. You can combine this mode with variety of others.
