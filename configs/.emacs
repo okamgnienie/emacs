@@ -424,11 +424,11 @@
 (define-key global-map (kbd "C-c C-l") 'avy-goto-line)
 
 ;; Tide - jump to definition:
-(global-set-key (kbd "C-c j d") 'tide-jump-to-definition)
+(define-key tide-mode-map (kbd "C-c j") 'tide-jump-to-definition)
 
 ;; ng2-mode keybindings:
 (define-key global-map (kbd "C-c C-c") 'ng2-open-counterpart)
-(global-set-key (kbd "C-c j b") 'ng2-html-goto-binding)
+(define-key ng2-html-map (kbd "C-c j") 'ng2-html-goto-binding)
 
 ;; Smex keybindings:
 (global-set-key (kbd "M-x") 'smex)

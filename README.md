@@ -197,8 +197,8 @@ Use semantic text selection.
 
 - TypeScript/Angular
   - `Ctrl + c Ctrl + c` - open component counterpart
-  - `Ctrl + c j b` - jump to html binding (inside a template)
-  - `Ctrl + c j d` - jump to definition (inside TypeScript file)
+  - `Ctrl + c j` - jump to html binding (inside a template)
+  - `Ctrl + c j` - jump to definition (inside a TypeScript file)
 
 - Other
   - `Alt + ;` - comment/uncomment line/selection
