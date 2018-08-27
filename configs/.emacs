@@ -231,13 +231,12 @@
 ;; Open styles and templates with web-mode:
 (add-to-list 'auto-mode-alist '("\\.html\\'" . web-mode))
 
-;; Open Angular component templates using ng2-mode:
-(add-to-list 'auto-mode-alist '("\\.component.html\\'" . ng2-mode))
-
-;; Open Angular component scripts using ng2-mode:
+;; Open Angular files using ng2-mode:
 (setq auto-mode-alist
       (append '(("\\.component.ts\\'" . ng2-mode)
+                ("\\.component.html\\'" . ng2-mode)
                 ("\\.container.ts\\'" . ng2-mode)
+                ("\\.container.html\\'" . ng2-mode)
                 ("\\.effect.ts\\'" . ng2-mode)
                 ("\\.effects.ts\\'" . ng2-mode)
                 ("\\.service.ts\\'" . ng2-mode)
