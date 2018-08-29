@@ -69,7 +69,8 @@
                           'typescript-mode
                           'ng2-mode
                           'tide
-                          'company)
+                          'company
+                          'string-utils)
 
 ;; activate installed packages
 (package-initialize)
@@ -428,6 +429,9 @@
 
 ;; Tide - rename symbol:
 (define-key tide-mode-map (kbd "C-c r") 'tide-rename-symbol)
+
+;; String-utils - cycle:
+(global-set-key (kbd "C-c C-s") 'string-inflection-all-cycle)
 
 ;; Smex keybindings:
 (global-set-key (kbd "M-x") 'smex)

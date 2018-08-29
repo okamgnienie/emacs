@@ -114,6 +114,7 @@ Use semantic text selection.
 - [ng2-mode](https://github.com/AdamNiederer/ng2-mode)
 - [tide](https://github.com/ananthakumaran/tide)
 - [company](http://company-mode.github.io/)
+- [string-utils](http://github.com/rolandwalker/string-utils)
 
 ## Key bindings
 - Movement
@@ -206,6 +207,7 @@ Use semantic text selection.
   - `Ctrl + x u` - open undo-tree buffer
   - `Alt + m` - open magit status buffer
   - `down arrow` - count lines, words and characters
+  - `Ctrl + c s` - cycle between different ways of writing strings (camelCase, kebab_case etc.)
 
 ## Credits
 Great thanks to Andrzej for showing me emacs, what made me immediately hooked.
