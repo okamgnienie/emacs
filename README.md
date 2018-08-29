@@ -199,6 +199,7 @@ Use semantic text selection.
   - `Ctrl + c Ctrl + c` - open component counterpart
   - `Ctrl + c j` - jump to html binding (inside a template)
   - `Ctrl + c j` - jump to definition (inside a TypeScript file)
+  - `Ctrl + c r` - rename symbol
 
 - Other
   - `Alt + ;` - comment/uncomment line/selection

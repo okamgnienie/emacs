@@ -426,6 +426,9 @@
 (define-key global-map (kbd "C-c C-c") 'ng2-open-counterpart)
 (define-key ng2-html-map (kbd "C-c j") 'ng2-html-goto-binding)
 
+;; Tide - rename symbol:
+(define-key tide-mode-map (kbd "C-c r") 'tide-rename-symbol)
+
 ;; Smex keybindings:
 (global-set-key (kbd "M-x") 'smex)
 (global-set-key (kbd "M-X") 'smex-major-mode-commands)
