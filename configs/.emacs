@@ -169,7 +169,10 @@
      (:propertize "%02c" face
                   ((t
                     (:foreground "#C678DD" :weight normal))))
-     " • " (:eval (list (nyan-create)))
+     " • "
+     (:eval
+      (list
+       (nyan-create)))
      " • " mode-name " • "
      (:propertize mode-line-buffer-identification face
                   ((t
