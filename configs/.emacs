@@ -123,6 +123,11 @@
 (setq js2-basic-offset 2)
 (setq web-mode-markup-indent-offset 2)
 
+;; Angular template indent size:
+(add-hook 'ng2-html-mode-hook
+          (lambda ()
+            (set (make-local-variable 'sgml-basic-offset) 4)))
+
 ;; Set CoffeeScript indent:
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
