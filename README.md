@@ -207,7 +207,7 @@ Use semantic text selection.
   - `Ctrl + x u` - open undo-tree buffer
   - `Alt + m` - open magit status buffer
   - `down arrow` - count lines, words and characters
-  - `Ctrl + c s` - cycle between different ways of writing strings (camelCase, kebab_case etc.)
+  - `Ctrl + c Ctrl + s` - cycle between different ways of writing strings (camelCase, kebab_case etc.)
 
 ## Credits
 Great thanks to Andrzej for showing me emacs, what made me immediately hooked.
