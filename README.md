@@ -114,7 +114,7 @@ Use semantic text selection.
 - [ng2-mode](https://github.com/AdamNiederer/ng2-mode)
 - [tide](https://github.com/ananthakumaran/tide)
 - [company](http://company-mode.github.io/)
-- [string-utils](http://github.com/rolandwalker/string-utils)
+- [string-inflection](https://github.com/akicho8/string-inflection)
 
 ## Key bindings
 - Movement

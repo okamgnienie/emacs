@@ -70,7 +70,7 @@
                           'ng2-mode
                           'tide
                           'company
-                          'string-utils)
+                          'string-inflection)
 
 ;; activate installed packages
 (package-initialize)
@@ -187,7 +187,7 @@
  '(nyan-mode t)
  '(package-selected-packages
    (quote
-    (company tide ng2-mode typescript-mode ztree coffee-mode json-mode helm-flycheck exec-path-from-shell flycheck parinfer multiple-cursors smart-forward expand-region php-mode yasnippet yaml-mode xkcd web-mode use-package undo-tree syntax-subword smooth-scroll smex smartparens scss-mode redo+ nyan-mode move-text markdown-mode magit less-css-mode js-doc jedi ido-ubiquitous hlinum helm-projectile god-mode csv-mode column-enforce-mode clojure-mode avy atom-one-dark-theme atom-dark-theme anaconda-mode ac-js2)))
+    (string-inflection company tide ng2-mode typescript-mode ztree coffee-mode json-mode helm-flycheck exec-path-from-shell flycheck parinfer multiple-cursors smart-forward expand-region php-mode yasnippet yaml-mode xkcd web-mode use-package undo-tree syntax-subword smooth-scroll smex smartparens scss-mode redo+ nyan-mode move-text markdown-mode magit less-css-mode js-doc jedi ido-ubiquitous hlinum helm-projectile god-mode csv-mode column-enforce-mode clojure-mode avy atom-one-dark-theme atom-dark-theme anaconda-mode ac-js2)))
  '(show-smartparens-global-mode t)
  '(size-indication-mode t)
  '(tab-width 2)
@@ -438,7 +438,7 @@
 ;; Tide - rename symbol:
 (define-key tide-mode-map (kbd "C-c r") 'tide-rename-symbol)
 
-;; String-utils - cycle:
+;; String-inflection - cycle:
 (global-set-key (kbd "C-c C-s") 'string-inflection-all-cycle)
 
 ;; Smex keybindings:
