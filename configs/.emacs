@@ -652,6 +652,7 @@
  '(mode-line-inactive ((t (:background "#444444" :foreground "#AAAAAA" :box (:line-width 1 :color "#444444")))))
  '(sp-show-pair-match-face ((t (:foreground "#528BFF" :weight normal))))
  '(sp-show-pair-mismatch-face ((t (:foreground "#E06C75" :weight normal))))
+ '(vertical-border ((t (:foreground "#393939"))))
  '(web-mode-current-element-highlight-face ((t (:inherit web-mode-variable-name-face)))))
 
 (put 'upcase-region 'disabled nil)
