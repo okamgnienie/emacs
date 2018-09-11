@@ -65,6 +65,7 @@ Use semantic text selection.
 ## Installation
 1. Download repository.
 2. Symlink or copy `./configs/.emacs` and `./configs/.emacs.d` to your home directory.
+3. Install [TSlint](https://palantir.github.io/tslint/usage/cli/)
 
 ## Included packages
 - redo+
