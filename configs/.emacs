@@ -128,6 +128,9 @@
           (lambda ()
             (set (make-local-variable 'sgml-basic-offset) 4)))
 
+;; org-mode line breaking settings:
+(add-hook 'org-mode-hook #'visual-line-mode)
+
 ;; Set CoffeeScript indent:
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
