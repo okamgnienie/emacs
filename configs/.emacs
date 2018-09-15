@@ -444,7 +444,10 @@
 (define-key ng2-html-map (kbd "C-c j") 'ng2-html-goto-binding)
 
 ;; Tide - rename symbol:
-(define-key tide-mode-map (kbd "C-c r") 'tide-rename-symbol)
+(define-key tide-mode-map (kbd "C-c r s") 'tide-rename-symbol)
+
+;; Tide - rename file:
+(define-key tide-mode-map (kbd "C-c r f") 'tide-rename-file)
 
 ;; String-inflection - cycle:
 (global-set-key (kbd "C-c C-s") 'string-inflection-all-cycle)
