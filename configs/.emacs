@@ -194,6 +194,7 @@
  '(show-smartparens-global-mode t)
  '(size-indication-mode t)
  '(tab-width 2)
+ '(tide-sync-request-timeout 5)
  '(web-mode-code-indent-offset 2)
  '(web-mode-css-indent-offset 4)
  '(web-mode-enable-current-element-highlight t)
