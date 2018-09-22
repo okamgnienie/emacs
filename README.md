@@ -8,60 +8,6 @@ Node.js is required for JavaScript syntax checking.
 
 Pylint is required for python syntax checking.
 
-## Features
-
-### Avy
-Move your cursor easily around whole screen.
-After activating desired mode, insert letter(s) to which you want to jump and press highlighted key(s) to proceed.
-![avy](images/avy.gif)
-- `Ctrl + l` - go to line
-- `Ctrl + c` - go to character (one letter)
-- `Ctrl + space` - go to word (one letter)
-
-### Multiple cursors
-Use more than one cursor. You can combine this mode with variety of others.
-![multiple-cursors](images/multiple-cursors.gif)
-- `Alt + .` - add cursor forward/below
-- `Alt + ,` - add cursor backward/up
-
-### Snippets
-Create your own templates or use default set.
-![snippets](images/snippets.gif)
-- `f tab` - anonymous function snippet
-- `fn tab` - named function snippet
-- `fnr tab` - named function snippet with return
-- `< tab` - flexible HTML snippet
-- `<c tab` - flexible HTML snippet with class
-
-### Recursive grep
-Search for code fragments based on string.
-![rgrep](images/rgrep.gif)
-- `Alt + r` - open rgrep
-
-### Undo tree
-Easily try different ideas and never lose code by accident.
-![undo-tree](images/undo-tree.gif)
-- `Ctrl + x u` - open undo-tree
-- `Ctrl + f` - move to the right branch
-- `Ctrl + b` - move to the left branch
-
-### Magit
-Manage your git repositories directly in emacs.
-![magit](images/magit.gif)
-- `Alt + m` - open magit
-- `h` - open help and show key bindings (in magit)
-- `r w` then select commit and press `C-c C-c` to modify the commit message (in magit)
-
-### Yanking
-Copy & paste multiple strings.
-![yank](images/yank.gif)
-- `Ctrl + y` - paste, then by pressing `Alt + y` paste previously copied text
-
-### Expanding region
-Use semantic text selection.
-![expand-region](images/expand-region.gif)
-- `Alt + s` - expand selection, then by pressing `s` expand it wider
-
 ## Installation
 1. Download repository.
 2. Symlink or copy `./configs/.emacs` and `./configs/.emacs.d` to your home directory.
@@ -146,6 +92,8 @@ Use semantic text selection.
   - `Ctrl + j` - new line for many cursors
   - `Alt + s` - expand selection, then by pressing `s` expand it wider
   - `Ctrl + x + p` - select all
+  - `Alt + .` - add another cursor forward/below
+  - `Alt + ,` - add another cursor backward/up
 
 - History and search
   - `Alt + w` - copy
@@ -210,6 +158,7 @@ Use semantic text selection.
   - `Alt + m` - open magit status buffer
   - `down arrow` - count lines, words and characters
   - `Ctrl + c Ctrl + s` - cycle between different ways of writing strings (camelCase, kebab_case etc.)
+  - `Alt + r` - open rgrep
 
 ## Credits
 Great thanks to Andrzej for showing me emacs, what made me immediately hooked.
