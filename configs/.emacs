@@ -257,7 +257,8 @@
                 ("\\.effect.ts\\'" . ng2-mode)
                 ("\\.effects.ts\\'" . ng2-mode)
                 ("\\.service.ts\\'" . ng2-mode)
-                ("\\.module.ts\\'" . ng2-mode))
+                ("\\.module.ts\\'" . ng2-mode)
+                ("\\.reducer.ts\\'" . ng2-mode))
               auto-mode-alist))
 
 ;; Open CSV files with csv-mode:
