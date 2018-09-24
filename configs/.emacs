@@ -319,7 +319,7 @@
 (add-hook 'after-init-hook #'global-flycheck-mode)
 
 ;; Enable flycheck in ng2-mode:
-(flycheck-add-mode 'typescript-tslint 'ng2-ts-mode)
+;; (flycheck-add-mode 'typescript-tslint 'ng2-ts-mode)
 (flycheck-add-mode 'typescript-tide 'ng2-ts-mode)
 
 ;; Disable jshint
