@@ -424,6 +424,15 @@
 ;; Selecting text region:
 (global-set-key (kbd "M-s") 'er/expand-region)
 
+;; Open dired buffer:
+(global-set-key (kbd "C-c C-d") 'dired)
+
+;; Manage bookmarks:
+(global-set-key (kbd "C-c b l") 'helm-bookmarks)
+(global-set-key (kbd "C-c b a") 'bookmark-set)
+(global-set-key (kbd "C-c b d") 'bookmark-delete)
+(global-set-key (kbd "C-c b r") 'bookmark-rename)
+
 ;; Fix the expand region causing mark mode problems:
 (setq shift-select-mode nil)
 

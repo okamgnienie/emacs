@@ -152,6 +152,12 @@ Pylint is required for python syntax checking.
   - `Ctrl + c r s` - rename symbol
   - `Ctrl + c r f` - rename file
 
+- Bookmarks
+  - `Ctrl + c b l` - open list of bookmarks
+  - `Ctrl + c b a` - add a bookmark
+  - `Ctrl + c b d` - delete a bookmark
+  - `Ctrl + c b r` - rename a bookmark
+
 - Other
   - `Alt + ;` - comment/uncomment line/selection
   - `Ctrl + x u` - open undo-tree buffer
