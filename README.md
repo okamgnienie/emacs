@@ -101,8 +101,9 @@ Pylint is required for python syntax checking.
   - `Ctrl + y` - paste, then by pressing `Alt + y` paste previously copied text
   - `Left arrow` - undo
   - `Right arrow` - redo
-  - `Ctrl + s` - search (forward)
-  - `Ctrl + r` - search (backward)
+  - `Ctrl + s` - Isearch (forward, case sensitive)
+  - `Ctrl + r` - Isearch (backward, case sensitive)
+  - `Alt + c` - switch to case insensitive Isearch
   - `Alt + g` - recursive grep
 
 - Text removal
