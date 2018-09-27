@@ -128,6 +128,12 @@
           (lambda ()
             (set (make-local-variable 'sgml-basic-offset) 4)))
 
+;; JSON indent
+(add-hook 'json-mode-hook
+          (lambda ()
+            (make-local-variable 'js-indent-level)
+            (setq js-indent-level 4)))
+
 ;; org-mode line breaking settings:
 (add-hook 'org-mode-hook #'visual-line-mode)
 
