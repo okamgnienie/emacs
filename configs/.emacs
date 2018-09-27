@@ -431,8 +431,8 @@
 ;; Manage bookmarks:
 (global-set-key (kbd "C-c b l") 'helm-bookmarks)
 (global-set-key (kbd "C-c b a") 'bookmark-set)
-(global-set-key (kbd "C-c b d") 'bookmark-delete)
-(global-set-key (kbd "C-c b r") 'bookmark-rename)
+(global-set-key (kbd "C-c b d") 'helm-bookmark-run-delete)
+(global-set-key (kbd "C-c b r") 'helm-bookmark-run-edit)
 
 ;; Fix the expand region causing mark mode problems:
 (setq shift-select-mode nil)
