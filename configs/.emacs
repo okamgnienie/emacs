@@ -16,7 +16,7 @@
   (mapcar
    (lambda (package)
      (if (package-installed-p package)
-				 (require package)
+         (require package)
        (package-install package)))
    packages))
 
@@ -326,8 +326,8 @@
 
 ;; Disable jshint
 (setq-default flycheck-disabled-checkers
-							(append flycheck-disabled-checkers
-											'(javascript-jshint)))
+              (append flycheck-disabled-checkers
+                      '(javascript-jshint)))
 
 ;; Use eslint with web-mode for jsx files:
 (flycheck-add-mode 'javascript-eslint 'web-mode)
@@ -337,8 +337,8 @@
 
 ;; Disable json-jsonlist checking for json files
 (setq-default flycheck-disabled-checkers
-							(append flycheck-disabled-checkers
-											'(json-jsonlist)))
+              (append flycheck-disabled-checkers
+                      '(json-jsonlist)))
 
 ;; This hopefully sets up path and other vars better:
 (when (memq window-system '(mac ns))
@@ -561,7 +561,7 @@
   (interactive)
   (let (beg end)
     (if (region-active-p)
-				(setq beg (region-beginning) end (region-end))
+        (setq beg (region-beginning) end (region-end))
       (setq beg (line-beginning-position) end (line-end-position)))
     (comment-or-uncomment-region beg end)))
 
