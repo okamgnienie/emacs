@@ -60,11 +60,8 @@
                           'web-mode
                           'yaml-mode
                           'clojure-mode
-                          'anaconda-mode
-                          'parinfer
                           'flycheck
                           'json-mode
-                          'coffee-mode
                           'ztree
                           'typescript-mode
                           'ng2-mode
@@ -199,7 +196,7 @@
  '(nyan-mode t)
  '(package-selected-packages
    (quote
-    (string-inflection company tide ng2-mode typescript-mode ztree coffee-mode json-mode helm-flycheck exec-path-from-shell flycheck parinfer multiple-cursors smart-forward expand-region php-mode yasnippet yaml-mode xkcd web-mode use-package undo-tree syntax-subword smooth-scroll smex smartparens scss-mode redo+ nyan-mode move-text markdown-mode magit less-css-mode js-doc jedi ido-ubiquitous hlinum helm-projectile god-mode csv-mode column-enforce-mode clojure-mode avy atom-one-dark-theme atom-dark-theme anaconda-mode ac-js2)))
+    (string-inflection company tide ng2-mode typescript-mode ztree json-mode helm-flycheck exec-path-from-shell flycheck multiple-cursors smart-forward expand-region php-mode yasnippet yaml-mode xkcd web-mode use-package undo-tree syntax-subword smooth-scroll smex smartparens scss-mode redo+ nyan-mode move-text markdown-mode magit less-css-mode js-doc jedi ido-ubiquitous hlinum helm-projectile god-mode csv-mode column-enforce-mode clojure-mode avy atom-one-dark-theme atom-dark-theme ac-js2)))
  '(search-upper-case t)
  '(show-smartparens-global-mode t)
  '(size-indication-mode t)
@@ -235,9 +232,6 @@
 ;; Change cursor and linum color in god mode:
 (add-hook 'god-mode-enabled-hook 'activate-yellow-cursor)
 (add-hook 'god-mode-disabled-hook 'activate-blue-cursor)
-
-;; Use anaconda-mode by default for python editing:
-(add-hook 'python-mode-hook 'anaconda-mode)
 
 ;; Set font to Adobe Source Code Pro:
 ;; (add-to-list 'default-frame-alist '(font .  "Source Code Pro-13" ))

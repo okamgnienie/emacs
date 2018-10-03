@@ -6,8 +6,6 @@ My personal Emacs configuration used mostly for JavaScript development.
 
 Node.js is required for JavaScript syntax checking.
 
-Pylint is required for python syntax checking.
-
 ## Installation
 1. Download repository.
 2. Symlink or copy `./configs/.emacs` and `./configs/.emacs.d` to your home directory.
@@ -50,12 +48,9 @@ Pylint is required for python syntax checking.
 - [clojure-mode](https://github.com/clojure-emacs/clojure-mode)
 - [xkcd](https://github.com/vibhavp/emacs-xkcd)
 - [jedi](https://github.com/tkf/emacs-jedi)
-- [anaconda-mode](https://github.com/proofit404/anaconda-mode)
-- [parinfer](https://github.com/DogLooksGood/parinfer-mode)
 - [flycheck](https://github.com/flycheck/flycheck)
 - [exec-path-from-shell](https://github.com/purcell/exec-path-from-shell)
 - [json-mode](https://github.com/joshwnj/json-mode)
-- [coffee-mode](https://github.com/defunkt/coffee-mode)
 - [ztree](https://github.com/fourier/ztree)
 - [typescript-mode](https://github.com/ananthakumaran/typescript.el)
 - [ng2-mode](https://github.com/AdamNiederer/ng2-mode)
