@@ -14,7 +14,6 @@ Node.js is required for JavaScript syntax checking.
 ## Included packages
 - redo+
 - [expand-region](https://github.com/magnars/expand-region.el)
-- [smex](https://github.com/nonsequitur/smex)
 - [ido](https://github.com/DarwinAwardWinner/ido-ubiquitous)
 - [yasnippet](http://github.com/capitaomorte/yasnippet)
 - [js-doc](https://github.com/mooz/js-doc)
@@ -110,7 +109,7 @@ Node.js is required for JavaScript syntax checking.
   - `Ctrl + c p f` - search file
   - `Ctrl + l` - search file (helm)
   - `Alt + l` - search buffer (helm)
-  - `Alt + c` - search command (helm)
+  - `Alt + x` - search command (helm)
   - `Ctrl + x b` - search through open files
   - `Alt + x` - open console
   - `Ctrl + x Ctrl + f` - browse files

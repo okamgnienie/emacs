@@ -32,7 +32,6 @@
 (ensure-package-installed 'atom-one-dark-theme
                           'redo+
                           'expand-region
-                          'smex
                           'ido
                           'yasnippet
                           'js-doc
@@ -196,7 +195,7 @@
  '(nyan-mode t)
  '(package-selected-packages
    (quote
-    (string-inflection company tide ng2-mode typescript-mode ztree json-mode helm-flycheck exec-path-from-shell flycheck multiple-cursors smart-forward expand-region php-mode yasnippet yaml-mode xkcd web-mode use-package undo-tree syntax-subword smooth-scroll smex smartparens scss-mode redo+ nyan-mode move-text markdown-mode magit less-css-mode js-doc jedi ido-ubiquitous hlinum helm-projectile god-mode csv-mode column-enforce-mode clojure-mode avy atom-one-dark-theme atom-dark-theme ac-js2)))
+    (string-inflection company tide ng2-mode typescript-mode ztree json-mode helm-flycheck exec-path-from-shell flycheck multiple-cursors smart-forward expand-region php-mode yasnippet yaml-mode xkcd web-mode use-package undo-tree syntax-subword smooth-scroll smartparens scss-mode redo+ nyan-mode move-text markdown-mode magit less-css-mode js-doc jedi ido-ubiquitous hlinum helm-projectile god-mode csv-mode column-enforce-mode clojure-mode avy atom-one-dark-theme atom-dark-theme ac-js2)))
  '(search-upper-case t)
  '(show-smartparens-global-mode t)
  '(size-indication-mode t)
@@ -383,9 +382,6 @@
 ;; Run projectile on startup:
 (projectile-mode)
 
-;; Run smex:
-(smex-initialize)
-
 ;; Activate highlighting current line on linum:
 (hlinum-activate)
 
@@ -467,10 +463,6 @@
 ;; String-inflection - cycle:
 (global-set-key (kbd "C-c C-s") 'string-inflection-all-cycle)
 
-;; Smex keybindings:
-(global-set-key (kbd "M-x") 'smex)
-(global-set-key (kbd "M-X") 'smex-major-mode-commands)
-
 ;; Magit:
 (global-set-key (kbd "C-c m") 'magit-status)
 
@@ -490,7 +482,7 @@
 (global-set-key (kbd "M-l") 'helm-buffers-list)
 
 ;; Search commands (helm):
-(global-set-key (kbd "M-c") 'helm-M-x)
+(global-set-key (kbd "M-x") 'helm-M-x)
 
 ;; Smart forward:
 (global-set-key (kbd "M-<up>") 'smart-up)
