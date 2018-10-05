@@ -601,6 +601,26 @@
   (interactive)
   (scroll-down (window-one-fifth-height)))
 
+(defun get-ticket-number (str)
+  (let ((partials (split-string str "-")))
+    (string-join
+     (list (nth 0 partials) (nth 1 partials)) "-")))
+
+(defun get-ticket-number-from-branch-name ()
+  "Get ticket number from the current branch name.
+For example:
+bugfix/TN-1231-some-description => TN-1231
+feature/TN-1231-some-description => TN-1231
+TN-1231-some-description => TN-1231"
+  (let ((branch (magit-get-current-branch))
+        (branch-partials (split-string (magit-get-current-branch) "/")))
+    (if branch
+        (progn (kill-new branch)
+               (if (> (length branch-partials) 1)
+                   (get-ticket-number (nth 1 branch-partials))
+                 (get-ticket-number (nth 0 branch-partials))))
+      (user-error "There is not current branch"))))
+
 (defun kill-other-buffers ()
   "Kill all other buffers."
   (interactive)

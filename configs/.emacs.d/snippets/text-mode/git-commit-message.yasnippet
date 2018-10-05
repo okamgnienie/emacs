@@ -2,4 +2,4 @@
 # name: git commit message
 # key: m
 # --
-[${1:SP-}$2] ${3:$$(capitalize-first-char yas-text)}
+[`(get-ticket-number-from-branch-name)`] ${1:$$(capitalize-first-char yas-text)}
