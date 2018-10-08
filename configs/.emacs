@@ -422,7 +422,7 @@
 (global-set-key (kbd "M-s") 'er/expand-region)
 
 ;; Open dired buffer:
-(global-set-key (kbd "C-c C-d") 'dired)
+(global-set-key (kbd "C-c C-d") 'dired-jump)
 
 ;; Manage bookmarks:
 (global-set-key (kbd "C-c b l") 'helm-bookmarks)
